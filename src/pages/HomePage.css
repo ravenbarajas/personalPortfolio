@@ -1,0 +1,46 @@
+/* HomePage.css */
+
+.blob-frame {
+    width: 80%; /* Adjust the width to your desired size */
+    height: 80%; /* Adjust the height to your desired size */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;  /* Create a circular shape (a circle) */
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    overflow: hidden; /* Hide content outside the circle */
+    display: flex; /* Display the blob-frame as a flex container */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+}
+  
+.containerStyle {
+    display: flex;
+    max-height: 800px;
+}
+
+.leftColumnStyle {
+    width: 50%;
+    background-color: #ffffff;
+    padding-left: 150px;
+
+    .greeting-heading {
+        text-align: start;
+        font-weight: bold; /* Make the text bold */
+        font-size: larger;
+    }
+
+}
+
+.rightColumnStyle {
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+}
+
+.imageStyle { /* Corrected class name */
+    max-width: 100%; /* Adjust the maximum width as needed */
+    max-height: 100%; /* Adjust the maximum width as needed */
+}
+  
