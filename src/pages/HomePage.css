@@ -19,20 +19,83 @@
 .leftColumnStyle {
     width: 50%;
     background-color: #ffffff;
-    padding-left: 150px;
+    padding-left: 170px;
 
     .greeting-heading {
         text-align: start;
+        color: #111111;
         font-weight: bold; /* Make the text bold */
-        font-size: larger;
+        font-size: 50px;
+        margin-top: 200px; /* Set margin to 0 to eliminate spacing */
     }
+    .greeting-heading-role-1 {
+        text-align: start;
+        font-weight: bold;
+        font-size: 120px;
+        margin-top: -80px; /* Eliminate spacing */
+      
+        /* Apply a gradient background to the text */
+        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent; /* Make the text transparent to reveal the gradient */
+      }
+      
+      .greeting-heading-role-2 {
+        text-align: start;
+        font-weight: bold;
+        font-size: 120px;
+        margin-top: -160px; /* Adjust spacing */
+        margin-bottom: 16px; /* Adjust spacing */
+      
+        /* Apply a gradient background to the text */
+        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent; /* Make the text transparent to reveal the gradient */
+      }
+}
 
+.greeting-div{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+    .greeting-btn {
+        text-align: center;
+        background-color: #111111;
+        border-radius: 30px; /* Adjust the value for the desired roundness */
+        border-width: 1px;
+        border-color: #111111;
+        color: #ffffff;
+        font-weight: normal; /* Make the text bold */
+        font-size: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-top: 16px; /* Set margin to 0 to eliminate spacing */
+    }
+    .greeting-btn:hover {
+        text-align: center;
+        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+        border-radius: 30px; /* Adjust the value for the desired roundness */
+        border-color: transparent;
+        color: #ffffff;
+        font-weight: normal; /* Make the text bold */
+        font-size: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-top: 16px; /* Set margin to 0 to eliminate spacing */
+    }
 }
 
 .rightColumnStyle {
     width: 50%;
-    background-color: #f0f0f0;
-    padding: 50px;
+    background-color: #ffffff;
+    padding-right: 150px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center; /* Vertically center the content */
