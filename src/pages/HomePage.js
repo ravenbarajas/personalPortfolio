@@ -1,4 +1,5 @@
 import yourImage from '../assets/gradpic.png';
+import ravenLogo from '../assets/icons/ravenIcon.png';
 import React, { useRef } from 'react';
 import { useScroll } from './ScrollContext.js';
 import './HomePage.css';
@@ -20,6 +21,7 @@ function HomePage() {
     <div>
       <div className="containerStyle">
         <div className="leftColumnStyle">
+          <img className="greeting-icon" src={ravenLogo} alt="Raven Logo" />
           <p className="greeting-heading">Hey, I'm Carl Raven. </p>
           <p className="greeting-heading-role-1">Software</p>
           <p className="greeting-heading-role-2">Developer</p>

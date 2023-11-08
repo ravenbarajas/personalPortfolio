@@ -1,32 +1,38 @@
 /* HomePage.css */
 
 .blob-frame {
-    width: 80%; /* Adjust the width to your desired size */
-    height: 80%; /* Adjust the height to your desired size */
+    width: 460px; /* Adjust the width to your desired size */
+    height: 460px; /* Adjust the height to your desired size */
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;  /* Create a circular shape (a circle) */
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     overflow: hidden; /* Hide content outside the circle */
     display: flex; /* Display the blob-frame as a flex container */
     align-items: center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
+    padding-top: 1rem;
 }
   
 .containerStyle {
     display: flex;
-    max-height: 800px;
+    min-height: 730px;
+    opacity: 100%;
 }
 
 .leftColumnStyle {
     width: 50%;
     background-color: #ffffff;
-    padding-left: 170px;
+    padding-left: 250px;
 
+    .greeting-icon {
+        height: 65px;
+        margin-top: 130px; /* Set margin to 0 to eliminate spacing */
+        margin-bottom: -50px;
+    }
     .greeting-heading {
         text-align: start;
         color: #111111;
         font-weight: bold; /* Make the text bold */
         font-size: 50px;
-        margin-top: 200px; /* Set margin to 0 to eliminate spacing */
     }
     .greeting-heading-role-1 {
         text-align: start;
@@ -63,47 +69,51 @@
 
     .greeting-btn {
         text-align: center;
-        background-color: #111111;
+        background-color: #343434;
         border-radius: 30px; /* Adjust the value for the desired roundness */
-        border-width: 1px;
-        border-color: #111111;
+        border-width: 0;
+        border-color: #343434;
         color: #ffffff;
-        font-weight: normal; /* Make the text bold */
+        font-weight: bold; /* Make the text bold */
         font-size: 24px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
         margin-top: 16px; /* Set margin to 0 to eliminate spacing */
     }
+
     .greeting-btn:hover {
         text-align: center;
-        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-        border-radius: 30px; /* Adjust the value for the desired roundness */
-        border-color: transparent;
+        background-image: linear-gradient(270deg, rgb(255, 241, 191) 0%, rgb(236, 69, 141) 0%, rgb(71, 78, 215) 100%);
+        border-radius: 35px; /* Adjust the value for the desired roundness */
+        border-width: 0px;
+        border-color: #343434;
         color: #ffffff;
-        font-weight: normal; /* Make the text bold */
+        font-weight: bold; /* Make the text bold */
         font-size: 24px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
         margin-top: 16px; /* Set margin to 0 to eliminate spacing */
     }
 }
 
 .rightColumnStyle {
     width: 50%;
-    background-color: #ffffff;
     padding-right: 150px;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center; /* Vertically center the content */
-    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)
+    , rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)
+    , rgba(255, 255, 255, .9));
 }
 
 .imageStyle { /* Corrected class name */
-    max-width: 100%; /* Adjust the maximum width as needed */
-    max-height: 100%; /* Adjust the maximum width as needed */
+    max-width: 105%; /* Adjust the maximum width as needed */
+    max-height: 105%; /* Adjust the maximum width as needed */
 }
   
