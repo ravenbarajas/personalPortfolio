@@ -106,7 +106,6 @@
       .aboutme-slide2-colright {
         width: 50%;
         display: flex;
-        background-image: url("C:\xampp\htdocs\personal-portfolio\src\assets\lexmeetIntern.jpg"); /* Use forward slashes in the URL */
         background-size: cover; /* Fit the image to cover the container while maintaining aspect ratio */
         background-position: center;
     }

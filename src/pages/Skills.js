@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import LexmeetIntern from '../assets/lexmeetIntern.jpg';
 import './Skills.css';
 
 // Import Swiper React components
@@ -30,7 +31,7 @@ function Skills() {
         <SwiperSlide>
             <div className='aboutme-slide1'>
                 <div className='aboutme-slide1-colleft'>
-                
+                <img src={pupPylon} />
                 </div>
                 <div className='aboutme-slide1-colright'>
                 <p className='aboutme-school1'>A proud graduate of</p>
@@ -47,7 +48,7 @@ function Skills() {
                 <p className='aboutme-school3'>LexMeet, Inc.</p>
                 </div>
                 <div className='aboutme-slide2-colright'>
-                
+                <img src={LexmeetIntern} />
                 </div>
             </div>
         </SwiperSlide>
