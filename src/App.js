@@ -5,10 +5,6 @@ import HomePage from './pages/HomePage';
 import AboutMeHeader from './pages/AboutMeHeader';
 import AboutMe from './pages/AboutMe';
 
-import Skills from './pages/Skills';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import Education from './pages/Education';
 import './App.css';
 
 function App() {
@@ -19,15 +15,11 @@ function App() {
           <div className='hompage-section'>
             <HomePage />
           </div>
-          <div className='aboutme-section'>
+          <div className='aboutmeheader-section'>
             <AboutMeHeader />
-            <Routes>
-              <Route path="/skills" element={<Skills />} />
-              <Route path="/experience" element={<Experience />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/education" element={<Education />} />
-              <Route path="/aboutme" element={<AboutMe />} />
-            </Routes>
+          </div>
+          <div className='aboutme-section'>
+            <AboutMe />
           </div>
         </div>
       </Router>

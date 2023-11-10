@@ -1,6 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import pupPylon from '../assets/pupPylon.jpg';
-import LexmeetIntern from '../assets/lexmeetIntern.jpg';
 import './Skills.css';
 
 // Import Swiper React components
@@ -8,63 +6,63 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 function Skills() {
-
   return (
     <div className="carousel-section">
         <Swiper
-        pagination={{
-          dynamicBullets: true,
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
         }}
-        autoplay={{
-            delay: 3000,
-            disableOnInteraction: true,
-          }}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper">
-
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
         <SwiperSlide>
-            <div className='aboutme-slide1'>
-                <div className='aboutme-slide1-colleft'>
-                <img src={pupPylon} />
-                </div>
-                <div className='aboutme-slide1-colright'>
-                <p className='aboutme-school1'>A proud graduate of</p>
-                <p className='aboutme-school2'>Polytechnic University</p>
-                <p className='aboutme-school3'>of the Philippines.</p>
-                </div>
-          </div>
+          <p>Soft Skills</p>
+            <Swiper
+              className="mySwiper2 swiper-v"
+              direction={'vertical'}
+              spaceBetween={50}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Pagination]}
+            >
+              <SwiperSlide>Vertical Slide 1</SwiperSlide>
+              <SwiperSlide>Vertical Slide 2</SwiperSlide>
+              <SwiperSlide>Vertical Slide 3</SwiperSlide>
+            </Swiper>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='aboutme-slide2'>
-                <div className='aboutme-slide2-colleft'>
-                <p className='aboutme-school1'>Worked as a</p>
-                <p className='aboutme-school2'>Web Developer Intern at</p>
-                <p className='aboutme-school3'>LexMeet, Inc.</p>
-                </div>
-                <div className='aboutme-slide2-colright'>
-                <img src={LexmeetIntern} />
-                </div>
-            </div>
+          <p>Technical Skills</p>
+            <Swiper
+              className="mySwiper2 swiper-v"
+              direction={'vertical'}
+              spaceBetween={50}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Pagination]}
+            >
+              <SwiperSlide>Vertical Slide 1</SwiperSlide>
+              <SwiperSlide>Vertical Slide 2</SwiperSlide>
+              <SwiperSlide>Vertical Slide 3</SwiperSlide>
+            </Swiper>
         </SwiperSlide>
-        <SwiperSlide>
-            <div className='aboutme-slide2'>
-                <div className='aboutme-slide2-colleft'>
-                <p className='aboutme-school1'>Strong and Effective</p>
-                <p className='aboutme-school2'>Leader.</p>
-                </div>
-                <div className='aboutme-slide2-colright'>
-                  <img src={LexmeetIntern} />
-                </div>
-            </div></SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
       </Swiper>
     </div>
   );
