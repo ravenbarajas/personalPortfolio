@@ -41,7 +41,6 @@
     .aboutme-slide1-colleft {
       width: 50%;
       display: flex;
-      background-image: url("C:\\xampp\\htdocs\\personal-portfolio\\src\\assets\\pupPylon.jpg");
       background-size: cover; /* Optionally, adjust to your preferred size */
       background-position: center;
     }
