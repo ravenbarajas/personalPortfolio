@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import pupPylon from '../assets/pupPylon.jpg';
 import LexmeetIntern from '../assets/lexmeetIntern.jpg';
 import './Skills.css';
 
@@ -59,7 +60,7 @@ function Skills() {
                 <p className='aboutme-school2'>Leader.</p>
                 </div>
                 <div className='aboutme-slide2-colright'>
-                
+                  <img src={LexmeetIntern} />
                 </div>
             </div></SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
