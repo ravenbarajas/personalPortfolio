@@ -128,6 +128,12 @@
   .aboutme-education-btn:hover {
     border-bottom: 3px solid white; /* Change border thickness to 2px and set color to white */
   }
+
+  .link-button {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the text color from the parent button */
+  }
+  
   
   
   
