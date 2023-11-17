@@ -32,13 +32,15 @@
         text-align: start;
         color: #111111;
         font-weight: bold; /* Make the text bold */
-        font-size: 50px;
+        font-size: 54px;
+        font-family: 'Inter', sans-serif;
     }
     .greeting-heading-role-1 {
         text-align: start;
         font-weight: bold;
         font-size: 120px;
-        margin-top: -80px; /* Eliminate spacing */
+        font-family: 'Inter', sans-serif;
+        margin-top: -70px; /* Eliminate spacing */
       
         /* Apply a gradient background to the text */
         background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
@@ -51,6 +53,7 @@
         text-align: start;
         font-weight: bold;
         font-size: 120px;
+        font-family: 'Inter', sans-serif;
         margin-top: -160px; /* Adjust spacing */
         margin-bottom: 16px; /* Adjust spacing */
       
@@ -76,6 +79,7 @@
         color: #ffffff;
         font-weight: bold; /* Make the text bold */
         font-size: 24px;
+        font-family: 'Inter', sans-serif;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 3.5rem;
@@ -92,6 +96,7 @@
         color: #ffffff;
         font-weight: bold; /* Make the text bold */
         font-size: 24px;
+        font-family: 'Inter', sans-serif;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 3.5rem;

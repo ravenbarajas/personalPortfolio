@@ -1,151 +1,125 @@
-.carousel-section {
-    width: 100%;
-    height: 730px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: #272727;
-    flex-direction: column;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap');
+
+.skills-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  background-color: transparent;
+  padding: 0;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: row; /* Updated to row */
+  height: 100%;
+}
+
+.soft-skill {
+  width: 250px;
+  height: 640px;
+  background-color: #ffffff;
+  transform: skew(-8deg);
+  margin-left: 6px;
+  overflow: hidden;
+  position: relative;
+  animation: slideIn 1s ease-in-out forwards; /* Use animation with a duration of 1s */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-500%); /* Start off-screen to the left */
+    opacity: 0; /* Start with opacity 0 */
   }
-
-  .swiper {
-    width: 80%;
-    height: 650px;
+  to {
+    transform: skew(-8deg); /* Apply skew to the final position */
+    opacity: 1; /* Start with opacity 0 */
   }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
+}
 
-  .aboutme-slide1 {
-    display: flex;
-    height: 100%;
+.soft-skill-heading {
+  width: 100%;
+  height: 90px;
+  background-color: #343434;
+  margin-bottom: 6px;
+  justify-content: center;
+}
 
-    .aboutme-slide1-colleft {
-      width: 50%;
-      display: flex;
-      background-size: cover; /* Optionally, adjust to your preferred size */
-      background-position: center;
-    }
-    .aboutme-slide1-colright {
-        width: 50%;
-        display: flex;  
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-        background-color: #ffffff;
+.soft-skill-heading p {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  margin: 0; /* Remove default margin */
+  position: relative;
+  top: 50%; /* Move to the vertical center */
+  transform: translateY(-50%) ; /* Adjust for centering */
+  left: 40px; /* Adjust as needed */
+}
 
-        .aboutme-school1{
-            font-size: 50px;
-            font-weight: 00;
-            padding-left: 100px;
-        }
-        .aboutme-school2{
-            font-size: 50px;
-            font-weight: 700;
-            padding-left: 100px;
-            margin-top: -30px;
-        }
-        .aboutme-school3{
-            font-size: 50px;
-            font-weight: 700;
-            padding-left: 100px;
-            margin-top: -30px;
-        }
-      }
+.skill-heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  text-align: start;
+  margin: 0; /* Remove default margin */
+  position: absolute;
+  top: 50%; /* Move to the vertical center */
+  transform: translateY(-50%); /* Adjust for centering */
+  left: 10px; /* Adjust as needed */
+}
 
-  }
+.soft-skill img {
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+  transform: skew(8deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .aboutme-slide2 {
-    display: flex;
-    height: 100%;
+.soft-skill-desc {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 17, 17, 0.5); /* #111111 with 50% opacity */
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
 
-    .aboutme-slide2-colleft {
-        width: 50%;
-        display: flex;  
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-        background-color: #ffffff;
+.soft-skill:hover .soft-skill-desc {
+  opacity: 1;
+}
 
-        .aboutme-school1{
-            font-size: 50px;
-            font-weight: 00;
-            padding-left: 100px;
-        }
-        .aboutme-school2{
-            font-size: 50px;
-            font-weight: 700;
-            padding-left: 100px;
-            margin-top: -30px;
-        }
-        .aboutme-school3{
-            font-size: 50px;
-            font-weight: 700;
-            padding-left: 100px;
-            margin-top: -30px;
-        }
-      }
-      .aboutme-slide2-colright {
-        width: 50%;
-        display: flex;
-        background-size: cover; /* Fit the image to cover the container while maintaining aspect ratio */
-        background-position: center;
-    }
-      
-  }
+.soft-skill:nth-child(1) {
+  animation-delay: 1.25s; /* No delay for the first element */
+}
+.soft-skill:nth-child(2) {
+  animation-delay: 1s;
+}
+.soft-skill:nth-child(3) {
+  animation-delay: .75s;
+}
+.soft-skill:nth-child(4) {
+  animation-delay: .5s;
+}
+.soft-skill:nth-child(5) {
+  animation-delay: .25s; /* No delay for the last element */
+}
 
-  .aboutme-slide3 {
-    display: flex;
-    height: 100%;
 
-    .aboutme-slide3-colleft {
-        width: 50%;
-        display: flex;  
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-        background-color: #ffffff;
 
-        .aboutme-school1{
-            font-size: 50px;
-            font-weight: 00;
-            padding-left: 100px;
-        }
-        .aboutme-school2{
-            font-size: 50px;
-            font-weight: 700;
-            padding-left: 100px;
-            margin-top: -30px;
-        }
-        .aboutme-school3{
-            font-size: 50px;
-            font-weight: 700;
-            padding-left: 100px;
-            margin-top: -30px;
-        }
-      }
-      .aboutme-slide3-colright {
-        width: 50%;
-        display: flex;
-        background-size: cover; /* Fit the image to cover the container while maintaining aspect ratio */
-        background-position: center;
-    }
-      
-  }
 
-  
 
-  
+
+
