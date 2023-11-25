@@ -4,6 +4,8 @@ import { ScrollProvider } from './pages/ScrollContext';
 import HomePage from './pages/HomePage';
 import AboutMeHeader from './pages/AboutMeHeader';
 import AboutMe from './pages/AboutMe';
+import Skills from './pages/Skills';
+
 
 import './App.css';
 
@@ -18,8 +20,11 @@ function App() {
           <div className='aboutmeheader-section'>
             <AboutMeHeader />
           </div>
-          <div className='aboutme-section'>
+          {/* <div className='aboutme-section'>
             <AboutMe />
+          </div> */}
+          <div>
+            <Skills />
           </div>
         </div>
       </Router>

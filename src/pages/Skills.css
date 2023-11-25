@@ -13,12 +13,16 @@
   flex-direction: column;
 }
 
-.skills-section {
+.soft-skills-section {
   display: flex;
   flex-direction: row; /* Updated to row */
   height: 100%;
 }
-
+.technical-skills-section {
+  display: flex;
+  flex-direction: row; /* Updated to row */
+  height: 100%;
+}
 .soft-skill {
   width: 250px;
   height: 640px;
@@ -59,7 +63,6 @@
   position: relative;
   top: 50%; /* Move to the vertical center */
   transform: translateY(-50%) ; /* Adjust for centering */
-  left: 40px; /* Adjust as needed */
 }
 
 .skill-heading {
