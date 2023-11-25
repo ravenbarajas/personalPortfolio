@@ -19,9 +19,9 @@ function AboutMeHeader() {
   }, [targetRef, scrollRef]);
 
   return (
-    <div className="carousel-heading" ref={targetRef}>
-      <p className='aboutme-heading'>About me</p>
-      <div className="aboutme-row">
+    <div className="aboutme-heading" ref={targetRef}>
+      <p className='aboutme-header'>About me</p>
+      {/* <div className="aboutme-row">
         <Link to="/skills" className="link-button"> 
           <button className="aboutme-skills-btn" >
             <img src={skills} />
@@ -54,7 +54,7 @@ function AboutMeHeader() {
             </div>
           </button>
         </Link>
-      </div>
+      </div> */}
     </div>
 
   );
