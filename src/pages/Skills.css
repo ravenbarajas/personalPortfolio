@@ -36,8 +36,8 @@
   animation: slideIn 1s ease-in-out forwards;
 }
 .technical-skill {
-  width: 500px;
-  height: 350px; /* Adjusted height to fit hexagon */
+  width: 480px;
+  height: 320px; /* Adjusted height to fit hexagon */
   background-color: #ffffff;
   margin-left: 6px;
   display: flex;
@@ -123,7 +123,7 @@
 }
 
 .tech-skill-logo img {
-  width: 90%; /* Adjust the width of the image */
+  width: 80%; /* Adjust the width of the image */
   height: auto; /* Maintain aspect ratio */
   object-fit: cover;
 }
@@ -166,14 +166,14 @@
   align-items: center;
 }
 .grid-item img {
-  width: 60%; /* Adjust width to leave some space between items */
+  width: 50%; /* Adjust width to leave some space between items */
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center;
 }
 
 .centered-item {
-  width: 90%; /* Take the full width of the container */
+  width: 80%; /* Take the full width of the container */
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
