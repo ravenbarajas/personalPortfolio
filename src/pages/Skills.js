@@ -34,8 +34,10 @@ import csharpTech from '../assets/skills/csharpTech.png';
 import javaTech from '../assets/skills/javaTech.png';
 
 import projectmanTools from '../assets/skills/projectmanTools.png';
+
 import trelloTech from '../assets/skills/trelloTech.png';
 import clickupTech from '../assets/skills/clickupTech.png';
+import gitTech from '../assets/skills/gitTech.png';
 
 function Skills() {
   const [isHovered, setIsHovered] = useState(false);
@@ -115,6 +117,7 @@ function Skills() {
           </div>
           <div className='tech-skill-desc'>
             <div className="grid-item"><img src={trelloTech} alt="trelloTech" /></div>
+            <div className="grid-item"><img src={gitTech} alt="gitTech" /></div>
             <div className="grid-item"><img src={clickupTech} alt="clickupTech" /></div>
           </div>
         </div>
@@ -125,11 +128,13 @@ function Skills() {
         <p className="soft-skill-header">People Skills</p>
       </div>
       <div className="soft-skills-section"> 
-        <div className="soft-skill" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-          <img src={softSkill1}/>
-          {isHovered && <div className="soft-skill-desc">
-            <p className='skill-heading'>Team player</p>
-            </div>}
+        <div className="soft-skill">
+          <div className="soft-skill-logo">
+            <img src={projectmanTools}/>
+          </div>
+          <div className="soft-skill-desc">
+            <p>Effective Communication</p>
+          </div>
         </div>
         <div className="soft-skill" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <img src={softSkill2}/>
