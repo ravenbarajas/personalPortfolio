@@ -19,7 +19,6 @@ import backendDev from '../assets/skills/backendDev.png';
 
 import pythonTech from '../assets/skills/pythonTech.png';
 import phpTech from '../assets/skills/phpTech.png';
-import javaTech from '../assets/skills/javaTech.png';
 import mysqlTech from '../assets/skills/mysqlTech.png';
 import firebaseTech from '../assets/skills/firebaseTech.png';
 
@@ -29,6 +28,14 @@ import xamarinTech from '../assets/skills/xamarinTech.png';
 import flutterTech from '../assets/skills/flutterTech.png';
 import dotnetTech from '../assets/skills/dotnetTech.png';
 
+import desktopDev from '../assets/skills/desktopDev.png';
+
+import csharpTech from '../assets/skills/csharpTech.png';
+import javaTech from '../assets/skills/javaTech.png';
+
+import projectmanTools from '../assets/skills/projectmanTools.png';
+import trelloTech from '../assets/skills/trelloTech.png';
+import clickupTech from '../assets/skills/clickupTech.png';
 
 function Skills() {
   const [isHovered, setIsHovered] = useState(false);
@@ -73,9 +80,7 @@ function Skills() {
           <div className='tech-skill-desc'>
             <div className="grid-item"><img src={pythonTech} alt="pythonTech" /></div>
             <div className="grid-item"><img src={phpTech} alt="phpTech" /></div>
-            <div className="grid-item"><img src={javaTech} alt="javaTech" /></div>
-            <div className="grid-item"><img src={mysqlTech} alt="mysqlTech" /></div>
-            <div className="centered-item"><img src={firebaseTech} alt="firebaseTech" /></div>
+            <div className="grid-item"><img src={firebaseTech} alt="firebaseTech" /></div>
           </div>
         </div>
         <div className="technical-skill">
@@ -95,39 +100,22 @@ function Skills() {
 
         <div className="technical-skill">
           <div className='tech-skill-logo'>
-            <img src={frontendDev}/>
-            <p>Frontend Development</p>
+            <img src={desktopDev}/>
+            <p>Desktop Development</p>
           </div>
           <div className='tech-skill-desc'>
-            <div className="grid-item"><img src={html5Tech} alt="HTML5" /></div>
-            <div className="grid-item"><img src={css3Tech} alt="CSS3" /></div>
-            <div className="grid-item"><img src={jsTech} alt="JavaScript" /></div>
-            <div className="grid-item"><img src={bootstrapTech} alt="Bootstrap" /></div>
-            <div className="centered-item"><img src={reactTech} alt="React" /></div>
-          </div>
-        </div>
-        <div className="technical-skill">
-          <div className='tech-skill-logo'>
-            <img src={backendDev}/>
-            <p>Backend Development</p>
-          </div>
-          <div className='tech-skill-desc'>
-            <div className="grid-item"><img src={pythonTech} alt="pythonTech" /></div>
-            <div className="grid-item"><img src={phpTech} alt="phpTech" /></div>
+            <div className="grid-item"><img src={csharpTech} alt="csharpTech" /></div>
             <div className="grid-item"><img src={javaTech} alt="javaTech" /></div>
-            <div className="grid-item"><img src={mysqlTech} alt="mysqlTech" /></div>
-            <div className="centered-item"><img src={firebaseTech} alt="firebaseTech" /></div>
           </div>
         </div>
         <div className="technical-skill">
           <div className='tech-skill-logo'>
-            <img src={mobileDev}/>
-            <p>Mobile Development</p>
+            <img src={projectmanTools}/>
+            <p>Project Management</p>
           </div>
           <div className='tech-skill-desc'>
-            <div className="grid-item"><img src={xamarinTech} alt="xamarinTech" /></div>
-            <div className="grid-item"><img src={flutterTech} alt="flutterTech" /></div>
-            <div className="centered-item"><img src={dotnetTech} alt="dotnetTech" /></div>
+            <div className="grid-item"><img src={trelloTech} alt="trelloTech" /></div>
+            <div className="grid-item"><img src={clickupTech} alt="clickupTech" /></div>
           </div>
         </div>
         
