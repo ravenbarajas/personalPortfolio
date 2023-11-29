@@ -5,6 +5,13 @@ import githubIcon from '../assets/githubIcon.png';
 import linkedinIcon from '../assets/linkedinIcon.png';
 import fbIcon from '../assets/fbIcon.png';
 
+import aboutmeBubble from '../assets/aboutmeBubble.png';
+import techskillBubble from '../assets/techskillBubble.png';
+import peopleskillBubble from '../assets/peopleskillBubble.png';
+import projectsBubble from '../assets/projectsBubble.png';
+import experienceBubble from '../assets/experienceBubble.png';
+import educationBubble from '../assets/educationBubble.png';
+
 function HomePage() {
   return (
     <div>
@@ -34,22 +41,45 @@ function HomePage() {
         </div>
         <div className="rightColumnStyle">
 
-        <div className="nav-hex">
-          <div className="nav-hex-logo-1">
-            <img src={fbIcon}/>
-            <p>About Me</p>
+        <div className='left-side-col'>
+          <div className="nav-hex">
+            <div className="nav-hex-logo-1">
+              <img src={aboutmeBubble}/>
+              <p>About Me</p>
+            </div>
+          </div>
+          <div className="nav-hex">
+            <div className="nav-hex-logo-3">
+              <img src={peopleskillBubble}/>
+              <p>People Skills</p>
+            </div>
+          </div>
+          <div className="nav-hex">
+            <div className="nav-hex-logo-5">
+              <img src={experienceBubble}/>
+              <p>Work Experience</p>
+            </div>
           </div>
         </div>
-        <div className="nav-hex">
-          <div className="nav-hex-logo-2">
-            <img src={fbIcon}/>
-            <p>Technical Skills</p>
+
+        <div className='right-side-col'>
+          <div className="nav-hex">
+            <div className="nav-hex-logo-2">
+              <img src={techskillBubble}/>
+              <p>Technical Skills</p>
+            </div>
           </div>
-        </div>
-        <div className="nav-hex">
-          <div className="nav-hex-logo-3">
-            <img src={fbIcon}/>
-            <p>People Skills</p>
+          <div className="nav-hex">
+            <div className="nav-hex-logo-4">
+              <img src={projectsBubble}/>
+              <p>Projects</p>
+            </div>
+          </div>
+          <div className="nav-hex">
+            <div className="nav-hex-logo-6">
+              <img src={educationBubble}/>
+              <p>Education</p>
+            </div>
           </div>
         </div>
 

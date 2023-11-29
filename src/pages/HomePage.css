@@ -18,9 +18,6 @@
     display: flex;
     height: 930px;
     opacity: 100%;
-    background-image: url('../assets/homepage.jpg');
-    background-size: cover; /* Adjust as needed */
-    background-position: center; /* Adjust as needed */
 }
 
 .leftColumnStyle {
@@ -64,12 +61,12 @@
     color: transparent; /* Make the text transparent to reveal the gradient */
   }
 .rightColumnStyle {
-    width: 40%;
+    width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, 1);
 }
 .contact-icon {
     width: 50%;
@@ -86,7 +83,7 @@
     justify-content: center; /* Center horizontally */
     align-items: center;
   }
-  .nav-hex {
+.nav-hex {
     width: 200px;
     height: 200px;
     background-color: #ffffff;
@@ -94,6 +91,12 @@
     overflow: hidden;
     position: relative;
     border-radius: 50%; /* Make it a circle */
+    margin: 8px;
+}
+.nav-hex p {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
 }
 .nav-hex-logo-1 {
     width: 100%;
@@ -101,19 +104,18 @@
     float: right;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #93DFFD;
+    background-color: rgba(255, 102, 30, 0.816);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .nav-hex-logo-1 img {
-    width: 20%;
-    height: 20%;
+    width: 40%;
+    height: 40%;
     float: right;
-    padding: 10px;
     box-sizing: border-box;
-    background-color: #93DFFD;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,22 +124,21 @@
 .nav-hex-logo-2 {
     width: 100%;
     height: 100%;
-    float: left;
+    float: right;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #D8B0FF;
+    background-color: rgba(71, 67, 62, 0.816);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .nav-hex-logo-2 img {
-    width: 20%;
-    height: 20%;
-    float: left;
-    padding: 10px;
+    width: 40%;
+    height: 40%;
+    float: right;
     box-sizing: border-box;
-    background-color: #D8B0FF;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,19 +150,87 @@
     float: left;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #FFDAC1 ;
+    background-color: rgba(235, 27, 42, 0.816);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .nav-hex-logo-3 img {
-    width: 20%;
-    height: 20%;
+    width: 40%;
+    height: 40%;
+    float: right;
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-4 {
+    width: 100%;
+    height: 100%;
     float: left;
     padding: 10px;
     box-sizing: border-box;
-    background-color: #FFDAC1 ;
+    background-color: rgba(161, 0, 255, 0.816);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-4 img {
+    width: 40%;
+    height: 40%;
+    float: right;
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-5 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 58, 0.816);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-5 img {
+    width: 40%;
+    height: 40%;
+    float: right;
+    box-sizing: border-box;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-6 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(0, 150, 215, 0.816);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-6 img {
+    width: 40%;
+    height: 40%;
+    float: right;
+    box-sizing: border-box;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
