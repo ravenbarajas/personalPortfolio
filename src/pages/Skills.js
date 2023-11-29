@@ -39,6 +39,8 @@ import trelloTech from '../assets/skills/trelloTech.png';
 import clickupTech from '../assets/skills/clickupTech.png';
 import gitTech from '../assets/skills/gitTech.png';
 
+import effectivecommSoft from '../assets/skills/effectivecommSoft.png';
+
 function Skills() {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -128,38 +130,15 @@ function Skills() {
         <p className="soft-skill-header">People Skills</p>
       </div>
       <div className="soft-skills-section"> 
+
         <div className="soft-skill">
           <div className="soft-skill-logo">
-            <img src={projectmanTools}/>
-          </div>
-          <div className="soft-skill-desc">
+            <img src={effectivecommSoft}/>
             <p>Effective Communication</p>
           </div>
         </div>
-        <div className="soft-skill" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-          <img src={softSkill2}/>
-          {isHovered && <div className="soft-skill-desc">
-            <p className='skill-heading'>Effective Leader</p>
-            </div>}
-        </div>
-        <div className="soft-skill" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-          <img src={softSkill3}/>
-          {isHovered && <div className="soft-skill-desc">
-            <p className='skill-heading'>Strategic Time Manager</p>
-            </div>}
-        </div>
-        <div className="soft-skill" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-          <img src={softSkill4}/>
-          {isHovered && <div className="soft-skill-desc">
-            <p className='skill-heading'>Problem Solver</p>
-            </div>}
-        </div>
-        <div className="soft-skill" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-          <img src={softSkill5}/>
-          {isHovered && <div className="soft-skill-desc">
-            <p className='skill-heading'>Critical Thinker</p>
-            </div>}
-        </div>
+
+        
       </div>
     </div>
   );

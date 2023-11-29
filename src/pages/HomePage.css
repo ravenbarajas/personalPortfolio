@@ -1,8 +1,8 @@
 /* HomePage.css */
 
 .blob-frame {
-    width: 460px; /* Adjust the width to your desired size */
-    height: 460px; /* Adjust the height to your desired size */
+    width: 350px; /* Adjust the width to your desired size */
+    height: 350px; /* Adjust the height to your desired size */
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;  /* Create a circular shape (a circle) */
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     overflow: hidden; /* Hide content outside the circle */
@@ -10,111 +10,187 @@
     align-items: center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
     padding-top: 1rem;
+    align-self: center;
+    margin-top: -5rem;
 }
   
 .containerStyle {
     display: flex;
-    min-height: 730px;
+    height: 930px;
     opacity: 100%;
+    background-image: url('../assets/homepage.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
 }
 
 .leftColumnStyle {
     width: 50%;
-    background-color: #ffffff;
-    padding-left: 250px;
-
-    .greeting-icon {
-        height: 65px;
-        margin-top: 130px; /* Set margin to 0 to eliminate spacing */
-        margin-bottom: -50px;
-    }
-    .greeting-heading {
-        text-align: start;
-        color: #111111;
-        font-weight: bold; /* Make the text bold */
-        font-size: 54px;
-        font-family: 'Inter', sans-serif;
-    }
-    .greeting-heading-role-1 {
-        text-align: start;
-        font-weight: bold;
-        font-size: 120px;
-        font-family: 'Inter', sans-serif;
-        margin-top: -70px; /* Eliminate spacing */
-      
-        /* Apply a gradient background to the text */
-        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent; /* Make the text transparent to reveal the gradient */
-      }
-      
-      .greeting-heading-role-2 {
-        text-align: start;
-        font-weight: bold;
-        font-size: 120px;
-        font-family: 'Inter', sans-serif;
-        margin-top: -160px; /* Adjust spacing */
-        margin-bottom: 16px; /* Adjust spacing */
-      
-        /* Apply a gradient background to the text */
-        background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent; /* Make the text transparent to reveal the gradient */
-      }
-}
-
-.greeting-div{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
     display: flex;
-    justify-content: start;
-    align-items: start;
-
-    .greeting-btn {
-        text-align: center;
-        background-color: #111111;
-        border-radius: 30px; /* Adjust the value for the desired roundness */
-        border-width: 0;
-        border-color: #343434;
-        color: #ffffff;
-        font-weight: bold; /* Make the text bold */
-        font-size: 24px;
-        font-family: 'Inter', sans-serif;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 3.5rem;
-        padding-right: 3.5rem;
-        margin-top: 16px; /* Set margin to 0 to eliminate spacing */
-    }
-
-    .greeting-btn:hover {
-        text-align: center;
-        background-image: linear-gradient(270deg, rgb(255, 241, 191) 0%, rgb(236, 69, 141) 0%, rgb(71, 78, 215) 100%);
-        border-radius: 35px; /* Adjust the value for the desired roundness */
-        border-width: 0px;
-        border-color: #343434;
-        color: #ffffff;
-        font-weight: bold; /* Make the text bold */
-        font-size: 24px;
-        font-family: 'Inter', sans-serif;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 3.5rem;
-        padding-right: 3.5rem;
-        margin-top: 16px; /* Set margin to 0 to eliminate spacing */
-    }
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.greeting-heading {
+    text-align: center;
+    color: #111111;
+    font-weight: bold; /* Make the text bold */
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+.greeting-subheading {
+    text-align: center;
+    color: #111111;
+    font-weight: 100; /* Make the text bold */
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    margin-top: -20px;
+}
+.greeting-heading-role {
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Inter', sans-serif;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    text-align: center;
+  
+    /* Apply a gradient background to the text */
+    background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Make the text transparent to reveal the gradient */
+  }
+.rightColumnStyle {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .2);
+}
+.contact-icon {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: -100px;
+}
+.contact-icon img {
+    width: 10%; /* Adjust width to leave some space between items */
+    margin: 0 8px ; /* Add margin for spacing */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+  }
+  .nav-hex {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-left: 6px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%; /* Make it a circle */
+}
+.nav-hex-logo-1 {
+    width: 100%;
+    height: 100%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #93DFFD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-1 img {
+    width: 20%;
+    height: 20%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #93DFFD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #D8B0FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-2 img {
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #D8B0FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-3 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #FFDAC1 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-hex-logo-3 img {
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #FFDAC1 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.rightColumnStyle {
-    width: 50%;
-    padding-right: 150px;
+.col1 {
+    width: 3%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)
-    , rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)
-    , rgba(255, 255, 255, .9));
+    background-color: #21D4FD;
+}
+.col2 {
+    width: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: #B721FF;
+}
+.col3 {
+    width: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
 }
 
 .imageStyle { /* Corrected class name */

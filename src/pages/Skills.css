@@ -26,34 +26,22 @@
 }
 
 .soft-skill {
-  width: 250px;
-  height: 250px; /* Adjusted height to fit hexagon */
+  width: 300px;
+  height: 300px; /* Adjusted height to fit hexagon */
   background-color: #ffffff;
   margin-left: 6px;
   overflow: hidden;
   position: relative;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  animation: slideIn 1s ease-in-out forwards;
 }
 .technical-skill {
-  width: 480px;
-  height: 320px; /* Adjusted height to fit hexagon */
+  width: 450px;
+  height: 280px; /* Adjusted height to fit hexagon */
   background-color: #ffffff;
   margin-left: 6px;
   display: flex;
   flex-direction: row;
   animation: slideIn 1s ease-in-out forwards;
-}
-
-@keyframes slideIn {
-  from {
-    transform: translateX(-500%); /* Start off-screen to the left */
-    opacity: 0; /* Start with opacity 0 */
-  }
-  to {
-    transform: none; /* Apply skew to the final position */
-    opacity: 1; /* Start with opacity 0 */
-  }
 }
 
 .technical-skill-heading {
@@ -130,11 +118,10 @@
 
 .tech-skill-logo p {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
   text-align: center;
-  margin: 0; /* Remove default margin */
 }
 
 .tech-skill-desc {
@@ -188,47 +175,35 @@
   margin: 0; /* Remove default margin */
 }
 
-.soft-skill img {
-  width: 120%;
-  height: 120%;
+.soft-skill-logo {
+  width: 100%; /* Adjust the width of the description */
+  height: 100%; /* Adjust the height of the description */
+  float: right; /* Float the description to the right */
+  padding: 10px; /* Add padding as needed */
+  box-sizing: border-box; /* Include padding in the total width */
+  background-color: #676767;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 1rem; /* Adjust the border-radius to control the roundness */
+  border-bottom-left-radius: 1rem; /* Adjust the border-radius to control the roundness */
+}
+
+.soft-skill-logo img {
+  width: 40%; /* Adjust the width of the image */
+  height: auto; /* Maintain aspect ratio */
   object-fit: cover;
-  transform: skew(8deg);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
-.soft-skill-desc {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(17, 17, 17, 0.5); /* #111111 with 50% opacity */
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.soft-skill-logo p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
 }
 
-.soft-skill:hover .soft-skill-desc {
-  opacity: 1;
-}
-
-.soft-skill:nth-child(1) {
-  animation-delay: 1.25s; /* No delay for the first element */
-}
-.soft-skill:nth-child(2) {
-  animation-delay: 1s;
-}
-.soft-skill:nth-child(3) {
-  animation-delay: .75s;
-}
-.soft-skill:nth-child(4) {
-  animation-delay: .5s;
-}
-.soft-skill:nth-child(5) {
-  animation-delay: .25s; /* No delay for the last element */
-}
 
 
 
