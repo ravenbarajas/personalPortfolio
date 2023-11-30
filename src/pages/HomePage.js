@@ -42,19 +42,19 @@ function HomePage() {
         <div className="rightColumnStyle">
 
         <div className='left-side-col'>
-          <div className="nav-hex">
+          <div className="nav-hex-small-1">
             <div className="nav-hex-logo-1">
               <img src={aboutmeBubble}/>
               <p>About Me</p>
             </div>
           </div>
-          <div className="nav-hex">
+          <div className="nav-hex-big">
             <div className="nav-hex-logo-3">
               <img src={peopleskillBubble}/>
               <p>People Skills</p>
             </div>
           </div>
-          <div className="nav-hex">
+          <div className="nav-hex-medium-1">
             <div className="nav-hex-logo-5">
               <img src={experienceBubble}/>
               <p>Work Experience</p>
@@ -63,19 +63,19 @@ function HomePage() {
         </div>
 
         <div className='right-side-col'>
-          <div className="nav-hex">
+          <div className="nav-hex-big">
             <div className="nav-hex-logo-2">
               <img src={techskillBubble}/>
               <p>Technical Skills</p>
             </div>
           </div>
-          <div className="nav-hex">
+          <div className="nav-hex-medium">
             <div className="nav-hex-logo-4">
               <img src={projectsBubble}/>
               <p>Projects</p>
             </div>
           </div>
-          <div className="nav-hex">
+          <div className="nav-hex-small-2">
             <div className="nav-hex-logo-6">
               <img src={educationBubble}/>
               <p>Education</p>
