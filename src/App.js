@@ -18,11 +18,8 @@ function App() {
             <HomePage />
           </div>
           <div className='aboutmeheader-section'>
-            <AboutMeHeader />
-          </div>
-          {/* <div className='aboutme-section'>
             <AboutMe />
-          </div> */}
+          </div>
           <div>
             <Skills />
           </div>

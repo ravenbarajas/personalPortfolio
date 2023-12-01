@@ -15,7 +15,7 @@ import educationBubble from '../assets/educationBubble.png';
 function HomePage() {
   return (
     <div>
-      <div className="containerStyle">
+      <div className="homepage-container">
         <div className="col1">
         </div>
         <div className="col2">

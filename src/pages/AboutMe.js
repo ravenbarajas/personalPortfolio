@@ -1,22 +1,23 @@
 // AboutMe.js
 import React from 'react';
-import { Link, Routes, Route } from 'react-router-dom';
 import './AboutMe.css';
-import Skills from './Skills';
-import Experience from './Experience';
-import Projects from './Projects';
-import Education from './Education';
+import aboutmePic from '../assets/aboutmePic.png';
 
 function AboutMe() {
   return (
-    <div className="aboutme-section">
-      <Routes>
-        <Route path="skills" element={<Skills />} />
-        <Route path="experience" element={<Experience />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="education" element={<Education />} />
-        <Route path="/aboutme/*" element={<AboutMe />} />
-      </Routes>
+    <div className='aboutme-container'>
+      <div className="aboutme-heading">
+        <p>About me</p>
+      </div>
+      <div className='aboutme-col-container'>
+        <div className='aboutme-leftcol-container'>
+        <img src={aboutmePic} className="aboutme-imageStyle"/>
+       
+        </div>
+        <div className='aboutme-rightcol-container'>
+          <p>Enthusiastic IT graduate with a strong coding passion and problem-solving acumen, possessing a solid software development background. Quick learner, detail-oriented, and committed to producing top-notch results. Eager to apply education and foster continuous growth in a dynamic tech company.</p>
+        </div>
+      </div>
     </div>
   );
 }
