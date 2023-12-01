@@ -11,11 +11,12 @@ function AboutMe() {
       </div>
       <div className='aboutme-col-container'>
         <div className='aboutme-leftcol-container'>
-        <img src={aboutmePic} className="aboutme-imageStyle"/>
-       
+          <div className='aboutme-img-container1'>
+            <img src={aboutmePic} className="aboutme-imageStyle"/>
+          </div>
         </div>
         <div className='aboutme-rightcol-container'>
-          <p>Enthusiastic IT graduate with a strong coding passion and problem-solving acumen, possessing a solid software development background. Quick learner, detail-oriented, and committed to producing top-notch results. Eager to apply education and foster continuous growth in a dynamic tech company.</p>
+          <p>IT graduate from Polytechnic University of the Philippines with a strong coding passion and problem-solving acumen, possessing a solid software development background. Quick learner, detail-oriented, and eager apply education and foster continuous growth in a dynamic tech company.</p>
         </div>
       </div>
     </div>

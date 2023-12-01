@@ -30,15 +30,7 @@
   opacity: 100%;
   flex-direction: row;
 }
-.aboutme-leftcol-container {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #ffffff;
-}
+.aboutme-leftcol-container,
 .aboutme-rightcol-container {
   width: 50%;
   height: 100%;
@@ -54,5 +46,7 @@
   max-height: 105%; /* Adjust the maximum width as needed */
 }
   
+.aboutme-img-container1 {
 
+}
   

@@ -17,10 +17,10 @@ function HomePage() {
     <div>
       <div className="homepage-container">
         <div className="col1">
-        </div>
-        <div className="col2">
-        </div>
-        <div className="col3">
+          </div>
+          <div className="col2">
+          </div>
+          <div className="col3">
         </div>
         <div className="leftColumnStyle">
           <div className="blob-frame">
