@@ -59,7 +59,7 @@ function Skills() {
     <div className="skills-container">
       
       <div className="technical-skill-heading">
-        <p className="technical-skill-header">Technical Skills</p>
+        <p>Technical Skills</p>
       </div>
       <div className="technical-skills-section"> 
 
