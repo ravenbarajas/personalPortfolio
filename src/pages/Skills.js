@@ -127,7 +127,7 @@ function Skills() {
       </div>
 
       <div className="soft-skill-heading">
-        <p className="soft-skill-header">People Skills</p>
+        <p>People Skills</p>
       </div>
       <div className="soft-skills-section"> 
 

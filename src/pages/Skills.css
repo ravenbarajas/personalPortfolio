@@ -64,22 +64,21 @@
 }
 .soft-skill-heading {
   width: 100%;
-  background-color: #343434;
-  margin-bottom: 6px;
-  display: flex;
+  height: 8rem;
+  background-color: #000000;
   align-items: center;
   justify-content: start;
-  height: 4rem;
-  padding-left: 12rem;
+  padding-left: 4rem;
 }
 
-.soft-skill-header {
+.soft-skill-heading p {
+  width: 100%;  
   color: #ffffff;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 64px;
+  font-weight: 900;
   font-family: 'Inter', sans-serif;
-  text-align: start;
-  justify-content: center;
+  align-items: center;
+  justify-content: start;
 }
 
 .skill-heading {
