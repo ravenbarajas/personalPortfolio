@@ -17,9 +17,6 @@ function App() {
           <div className='hompage-section'>
             <HomePage />
           </div>
-          <div className='aboutmeheader-section'>
-            <AboutMe />
-          </div>
           <div>
             <Skills />
           </div>
