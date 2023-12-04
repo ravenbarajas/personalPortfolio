@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap');
 
 .skills-container {
-  width: 100%;
-  height: 930px;
   display: flex;
-  justify-content: start;
-  align-items: center;
-  position: relative;
-  background-color: transparent;
-  padding: 0;
-  background-color: #ffffff;
+  opacity: 100%;
   flex-direction: column;
 }
-
+.technical-skill-col, .soft-skill-col {
+  width: 50%;
+}
 .soft-skills-section {
   display: flex;
   flex-direction: row; /* Updated to row */
@@ -20,11 +15,15 @@
 }
 .technical-skills-section {
   display: flex;
+  flex-direction: column; /* Updated to row */
+  height: 100%;
+}
+.technical-skills-row {
+  display: flex;
   flex-direction: row; /* Updated to row */
   height: 100%;
-  padding: .5rem;
+  padding: 1rem;
 }
-
 .soft-skill {
   width: 300px;
   height: 300px; /* Adjusted height to fit hexagon */
@@ -49,7 +48,7 @@
   height: 8rem;
   background-color: #000000;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   padding-left: 4rem;
 }
 
@@ -60,7 +59,7 @@
   font-weight: 900;
   font-family: 'Inter', sans-serif;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
 }
 .soft-skill-heading {
   width: 100%;
