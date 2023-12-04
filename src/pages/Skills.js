@@ -1,12 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Skills.css';
 
-import softSkill1 from '../assets/skills/softSkill1.jpg';
-import softSkill2 from '../assets/skills/softSkill2.jpg';
-import softSkill3 from '../assets/skills/softSkill3.jpg';
-import softSkill4 from '../assets/skills/softSkill4.jpg';
-import softSkill5 from '../assets/skills/softSkill5.jpg';
-
 import frontendDev from '../assets/skills/frontendDev.png';
 
 import html5Tech from '../assets/skills/html5Tech.png';
@@ -74,7 +68,7 @@ function Skills() {
                 <div className="tech-grid-item"><img src={css3Tech} alt="CSS3" /></div>
                 <div className="tech-grid-item"><img src={jsTech} alt="JavaScript" /></div>
                 <div className="tech-grid-item"><img src={bootstrapTech} alt="Bootstrap" /></div>
-                <div className="centered-item"><img src={reactTech} alt="React" /></div>
+                <div className="tech-grid-item"><img src={reactTech} alt="React" /></div>
               </div>
             </div>
             <div className="technical-skill">
@@ -98,7 +92,7 @@ function Skills() {
                 <div className='tech-skill-desc'>
                   <div className="tech-grid-item"><img src={xamarinTech} alt="xamarinTech" /></div>
                   <div className="tech-grid-item"><img src={flutterTech} alt="flutterTech" /></div>
-                  <div className="centered-item"><img src={dotnetTech} alt="dotnetTech" /></div>
+                  <div className="tech-grid-item"><img src={dotnetTech} alt="dotnetTech" /></div>
                 </div>
             </div>
             <div className="technical-skill">
@@ -134,10 +128,31 @@ function Skills() {
           <p>People Skills</p>
         </div>
         <div className="soft-skills-section"> 
-          <div className="soft-skill">
-            <div className="soft-skill-logo">
-              <img src={effectivecommSoft}/>
-              <p>Effective Communication</p>
+          <div className='soft-skills-row'>
+            <div className="soft-skill">
+              <div className="soft-skill-logo-1">
+                <p>Effective Communicator</p>
+              </div>
+            </div>
+            <div className="soft-skill">
+              <div className="soft-skill-logo-2">
+                <p>Effective Leader</p>
+              </div>
+            </div>
+            <div className="soft-skill">
+              <div className="soft-skill-logo-3">
+                <p>Strategic Time Manager</p>
+              </div>
+            </div>
+            <div className="soft-skill">
+              <div className="soft-skill-logo-4">
+                <p>Problem Solver</p>
+              </div>
+            </div>
+            <div className="soft-skill">
+              <div className="soft-skill-logo-5">
+                <p>Attention to Detail</p>
+              </div>
             </div>
           </div>
         </div>
@@ -148,5 +163,3 @@ function Skills() {
 }
 
 export default Skills;
-
-

@@ -3,6 +3,7 @@
 .skills-container {
   display: flex;
   opacity: 100%;
+  background-color: #000000;
   flex-direction: row;
 }
 .technical-skill-column, .soft-skill-column {
@@ -36,12 +37,13 @@
   display: flex;
   flex-direction: row; /* Updated to row */
   align-items: center;
+  justify-content: center;
   padding: .5rem;
 }
 .technical-skill {
-  width: 450px;
+  width: 400px;
   height: 240px; /* Adjusted height to fit hexagon */
-  background-color: #ffffff;
+  background-color: #000000;
   margin-left: 6px;
   margin-right: 6px;
   display: flex;
@@ -58,8 +60,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: 1rem; /* Adjust the border-radius to control the roundness */
-  border-bottom-left-radius: 1rem; /* Adjust the border-radius to control the roundness */
+  border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  border-bottom-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
 }
 .tech-skill-logo img {
   width: 70%; /* Adjust the width of the image */
@@ -80,19 +82,18 @@
   padding: 20px; /* Add padding as needed */
   box-sizing: border-box; /* Include padding in the total width */
   background-color: #676767;
-  border-top-right-radius: 1rem; 
-  border-bottom-right-radius: 1rem; 
+  border-top-right-radius: 2rem; 
+  border-bottom-right-radius: 2rem; 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  justify-items: center;
+  align-items: center;
 }
 .tech-skill-desc img {
   width: 30%; /* Adjust the width of the image */
   height: auto; /* Maintain aspect ratio */
   object-fit: cover;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-top: 8px;
 }
 .tech-skill-desc p {
   color: #ffffff;
@@ -102,28 +103,39 @@
   text-align: start;
   margin: 0; /* Remove default margin */
 }
-.centered-item {
-  width: 80%; /* Take the full width of the container */
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-}
-.soft-skill {
-  width: 300px;
-  height: 300px; /* Adjusted height to fit hexagon */
-  background-color: #ffffff;
-  margin-left: 6px;
-  overflow: hidden;
-  position: relative;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
-.tech-grid-item, .tech-grid-item img {
+.tech-grid-item {
   width: 50%; /* Adjust width to leave some space between items */
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center;
 }
-.soft-skill-logo {
+.tech-grid-item img {
+  width: 60%; /* Adjust width to leave some space between items */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+.soft-skills-row {
+  display: flex;
+  flex-direction: row; /* Updated to row */
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+}
+.soft-skill {
+  width: 240px;
+  height: 560px; /* Adjusted height to fit hexagon */
+  background-color: #000000;
+  margin-left: 6px;
+  margin-right: 6px;
+  display: flex;
+  flex-direction: row;
+}
+.soft-skill-logo-1, 
+.soft-skill-logo-2, 
+.soft-skill-logo-3,
+.soft-skill-logo-4,
+.soft-skill-logo-5 {
   width: 100%; /* Adjust the width of the description */
   height: 100%; /* Adjust the height of the description */
   float: right; /* Float the description to the right */
@@ -134,27 +146,42 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: 1rem; /* Adjust the border-radius to control the roundness */
-  border-bottom-left-radius: 1rem; /* Adjust the border-radius to control the roundness */
+  border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  border-bottom-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  border-top-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  border-bottom-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  background-image: url('../assets/skills/softSkill1.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Optional: Adjust the background size */
+  background-position: center; 
 }
-.soft-skill-logo img {
-  width: 40%; /* Adjust the width of the image */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover;
+.soft-skill-logo-2 {
+  background-image: url('../assets/skills/softSkill2.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Optional: Adjust the background size */
+  background-position: center; 
 }
-
-.soft-skill-logo p {
+.soft-skill-logo-3 {
+  background-image: url('../assets/skills/softSkill3.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Optional: Adjust the background size */
+  background-position: center; 
+}
+.soft-skill-logo-4 {
+  background-image: url('../assets/skills/softSkill4.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Optional: Adjust the background size */
+  background-position: center; 
+}
+.soft-skill-logo-5 {
+  background-image: url('../assets/skills/softSkill5.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Optional: Adjust the background size */
+  background-position: center; 
+}
+.soft-skill-logo-1 p,
+.soft-skill-logo-2 p,
+.soft-skill-logo-3 p,
+.soft-skill-logo-4 p,
+.soft-skill-logo-5 p  {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
   text-align: center;
 }
-
-
-
-
-
-
-
-

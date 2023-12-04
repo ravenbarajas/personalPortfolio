@@ -5,9 +5,7 @@ import githubIcon from '../assets/githubIcon.png';
 import linkedinIcon from '../assets/linkedinIcon.png';
 import fbIcon from '../assets/fbIcon.png';
 
-import aboutmeBubble from '../assets/aboutmeBubble.png';
 import techskillBubble from '../assets/techskillBubble.png';
-import peopleskillBubble from '../assets/peopleskillBubble.png';
 import projectsBubble from '../assets/projectsBubble.png';
 import experienceBubble from '../assets/experienceBubble.png';
 import educationBubble from '../assets/educationBubble.png';
@@ -32,7 +30,7 @@ function HomePage() {
             </div>
           <p className="greeting-heading">Hey, I'm Carl Raven.</p>
           <p className="greeting-heading-role">Software Developer</p>
-          <p className="greeting-subheading">Aspiring software developer committed to producing top-notch results.</p>
+          <p className="greeting-subheading">Committed to producing top-notch results.</p>
           <div className='contact-icon'>
             <img src={githubIcon}/>
             <img src={linkedinIcon}/>
@@ -42,41 +40,29 @@ function HomePage() {
         <div className="rightColumnStyle">
 
         <div className='left-side-col'>
-          <div className="nav-hex-small-1">
-            <div className="nav-hex-logo-1">
-              <img src={aboutmeBubble}/>
-              <p>About Me</p>
+          <div className="nav-bubble">
+            <div className="nav-bubble-logo-3">
+              <img src={techskillBubble}/>
+              <p>Skills</p>
             </div>
           </div>
-          <div className="nav-hex-big">
-            <div className="nav-hex-logo-3">
-              <img src={peopleskillBubble}/>
-              <p>People Skills</p>
-            </div>
-          </div>
-          <div className="nav-hex-medium-1">
-            <div className="nav-hex-logo-5">
+          <div className="nav-bubble">
+            <div className="nav-bubble-logo-5">
               <img src={experienceBubble}/>
-              <p>Work Experience</p>
+              <p>Experience</p>
             </div>
           </div>
         </div>
 
         <div className='right-side-col'>
-          <div className="nav-hex-big">
-            <div className="nav-hex-logo-2">
-              <img src={techskillBubble}/>
-              <p>Technical Skills</p>
-            </div>
-          </div>
-          <div className="nav-hex-medium">
-            <div className="nav-hex-logo-4">
+          <div className="nav-bubble">
+            <div className="nav-bubble-logo-4">
               <img src={projectsBubble}/>
               <p>Projects</p>
             </div>
           </div>
-          <div className="nav-hex-small-2">
-            <div className="nav-hex-logo-6">
+          <div className="nav-bubble">
+            <div className="nav-bubble-logo-6">
               <img src={educationBubble}/>
               <p>Education</p>
             </div>
