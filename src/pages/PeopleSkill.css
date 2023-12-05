@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap');
 
-.skills-container {
+.people-skills-container {
   display: flex;
   opacity: 100%;
   background-color: #000000;
   flex-direction: row;
 }
-.technical-skill-column, .soft-skill-column {
-  width: 50%;
+.soft-skill-column {
+  width: 100%;
   height: 930px;
   opacity: 100%;
 }
-.technical-skill-heading, .soft-skill-heading {
+.soft-skill-heading {
   width: 100%;
   height: 8rem;
   background-color: #000000;
@@ -19,101 +19,19 @@
   align-items: center;
   justify-content: center; /* Horizontally space items at start and end */
 }
-.technical-skill-heading p, .soft-skill-heading p {
+.soft-skill-heading p {
   width: auto; /* Allow the paragraph to take its natural width */
   color: #ffffff;
   font-size: 64px;
   font-weight: 900;
   font-family: 'Inter', sans-serif;
 }
-.technical-skills-section, .soft-skills-section {
+.soft-skills-section {
   display: flex;
   flex-direction: column;
   height: 802px;
   align-content: center;
   justify-content: center;
-}
-.technical-skills-row {
-  display: flex;
-  flex-direction: row; /* Updated to row */
-  align-items: center;
-  justify-content: center;
-  padding: .5rem;
-}
-.technical-skill {
-  width: 400px;
-  height: 240px; /* Adjusted height to fit hexagon */
-  background-color: #000000;
-  margin-left: 6px;
-  margin-right: 6px;
-  display: flex;
-  flex-direction: row;
-}
-.tech-skill-logo {
-  width: 40%; /* Adjust the width of the description */
-  height: 100%; /* Adjust the height of the description */
-  float: right; /* Float the description to the right */
-  padding: 10px; /* Add padding as needed */
-  box-sizing: border-box; /* Include padding in the total width */
-  background-color: #676767;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
-  border-bottom-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
-}
-.tech-skill-logo img {
-  width: 70%; /* Adjust the width of the image */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover;
-}
-.tech-skill-logo p {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: 'Inter', sans-serif;
-  text-align: center;
-}
-.tech-skill-desc {
-  width: 60%; /* Adjust the width of the description */
-  height: 100%; /* Adjust the height of the description */
-  float: right; /* Float the description to the left */
-  padding: 20px; /* Add padding as needed */
-  box-sizing: border-box; /* Include padding in the total width */
-  background-color: #676767;
-  border-top-right-radius: 2rem; 
-  border-bottom-right-radius: 2rem; 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  justify-items: center;
-  align-items: center;
-}
-.tech-skill-desc img {
-  width: 30%; /* Adjust the width of the image */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover;
-}
-.tech-skill-desc p {
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: 'Inter', sans-serif;
-  text-align: start;
-  margin: 0; /* Remove default margin */
-}
-.tech-grid-item {
-  width: 50%; /* Adjust width to leave some space between items */
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center;
-}
-.tech-grid-item img {
-  width: 60%; /* Adjust width to leave some space between items */
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center;
 }
 .soft-skills-row {
   display: flex;

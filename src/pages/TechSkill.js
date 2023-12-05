@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './Skills.css';
+import './TechSkill.css';
+
 
 import frontendDev from '../assets/skills/frontendDev.png';
 
@@ -33,33 +34,25 @@ import trelloTech from '../assets/skills/trelloTech.png';
 import clickupTech from '../assets/skills/clickupTech.png';
 import gitTech from '../assets/skills/gitTech.png';
 
-import effectivecommSoft from '../assets/skills/effectivecommSoft.png';
+import dataScience from '../assets/skills/dataScience.png';
 
-function Skills() {
-  const [isHovered, setIsHovered] = useState(false);
+import numpyTech from '../assets/skills/numpyTech.png';
+import tableuTech from '../assets/skills/tableuTech.png';
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
+function TechSkill() {
   useEffect(() => {
     // Additional logic or side effects if needed
   }, []); // Empty dependency array means this effect runs once when the component mounts
   return (  
-    <div className="skills-container">
-      
+    <div className="tech-skills-container">
       <div className='technical-skill-column'>
         <div className="technical-skill-heading">
           <p>Technical Skills</p>
         </div>
         <div className="technical-skills-section"> 
           <div className='technical-skills-row'>
-            <div className="technical-skill">
-              <div className='tech-skill-logo'>
+            <div className="technical-skill-card-1">
+              <div className='tech-skill-logo-card-1'>
                 <img src={frontendDev}/>
                 <p>Frontend Development</p>
               </div>
@@ -71,8 +64,8 @@ function Skills() {
                 <div className="tech-grid-item"><img src={reactTech} alt="React" /></div>
               </div>
             </div>
-            <div className="technical-skill">
-              <div className='tech-skill-logo'>
+            <div className="technical-skill-card-2">
+              <div className='tech-skill-logo-card-2'>
                 <img src={backendDev}/>
                 <p>Backend Development</p>
               </div>
@@ -82,10 +75,8 @@ function Skills() {
                 <div className="tech-grid-item"><img src={firebaseTech} alt="firebaseTech" /></div>
               </div>
             </div>
-          </div>
-          <div className='technical-skills-row'>
-            <div className="technical-skill">
-                <div className='tech-skill-logo'>
+            <div className="technical-skill-card-3">
+                <div className='tech-skill-logo-card-3'>
                   <img src={mobileDev}/>
                   <p>Mobile Development</p>
                 </div>
@@ -95,8 +86,10 @@ function Skills() {
                   <div className="tech-grid-item"><img src={dotnetTech} alt="dotnetTech" /></div>
                 </div>
             </div>
-            <div className="technical-skill">
-              <div className='tech-skill-logo'>
+          </div>
+          <div className='technical-skills-row'>
+            <div className="technical-skill-card-4">
+              <div className='tech-skill-logo-card-4'>
                 <img src={desktopDev}/>
                 <p>Desktop Development</p>
               </div>
@@ -106,10 +99,8 @@ function Skills() {
                 <div className="tech-grid-item"><img src={mysqlTech} alt="mysqlTech" /></div>
               </div>
             </div>
-          </div>
-          <div className='technical-skills-row'>
-            <div className="technical-skill">
-              <div className='tech-skill-logo'>
+            <div className="technical-skill-card-5">
+              <div className='tech-skill-logo-card-5'>
                 <img src={projectmanTools}/>
                 <p>Project Management</p>
               </div>
@@ -119,47 +110,21 @@ function Skills() {
                 <div className="tech-grid-item"><img src={clickupTech} alt="clickupTech" /></div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className='soft-skill-column'>
-        <div className="soft-skill-heading">
-          <p>People Skills</p>
-        </div>
-        <div className="soft-skills-section"> 
-          <div className='soft-skills-row'>
-            <div className="soft-skill">
-              <div className="soft-skill-logo-1">
-                <p>Effective Communicator</p>
+            <div className="technical-skill-card-6">
+              <div className='tech-skill-logo-card-6'>
+                <img src={dataScience}/>
+                <p>Data Science</p>
               </div>
-            </div>
-            <div className="soft-skill">
-              <div className="soft-skill-logo-2">
-                <p>Effective Leader</p>
-              </div>
-            </div>
-            <div className="soft-skill">
-              <div className="soft-skill-logo-3">
-                <p>Strategic Time Manager</p>
-              </div>
-            </div>
-            <div className="soft-skill">
-              <div className="soft-skill-logo-4">
-                <p>Problem Solver</p>
-              </div>
-            </div>
-            <div className="soft-skill">
-              <div className="soft-skill-logo-5">
-                <p>Attention to Detail</p>
+              <div className='tech-skill-desc'>
+                <div className="tech-grid-item"><img src={numpyTech} alt="numpyTech" /></div>
+                <div className="tech-grid-item"><img src={tableuTech} alt="tableuTech" /></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      </div>
+    </div>
   );
 }
 
-export default Skills;
+export default TechSkill;

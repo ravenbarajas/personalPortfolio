@@ -21,7 +21,7 @@
 }
 
 .leftColumnStyle {
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 1);
     display: flex;
@@ -61,7 +61,7 @@
     color: transparent; /* Make the text transparent to reveal the gradient */
   }
 .rightColumnStyle {
-    width: 40%;
+    width: 0%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -69,11 +69,11 @@
     background-color: rgba(255, 255, 255, 1);
 }
 .contact-icon {
-    width: 50%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 24px;
     margin-bottom: -100px;
 }
 .contact-icon img {
@@ -83,7 +83,6 @@
     justify-content: center; /* Center horizontally */
     align-items: center;
   }
-
 .nav-bubble p {
     color: #ffffff;
     font-weight: 700;
@@ -138,27 +137,6 @@
 .nav-bubble-logo-6 {
     background-color: rgba(0, 150, 215, 0.816);
 }
-
-.left-side-col {
-
-}
-.right-side-col {
-
-}
-.col1, .col2, .col3 {
-    width: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #21D4FD;
-}
-.col2 {
-    background-color: #B721FF;
-}
-.col3 {
-    background-color: #000000;
-}
-
 .imageStyle { /* Corrected class name */
     max-width: 105%; /* Adjust the maximum width as needed */
     max-height: 105%; /* Adjust the maximum width as needed */

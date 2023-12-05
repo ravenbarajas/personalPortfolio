@@ -2,9 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; // Updated imports
 import { ScrollProvider } from './pages/ScrollContext';
 import HomePage from './pages/HomePage';
-import AboutMeHeader from './pages/AboutMeHeader';
-import AboutMe from './pages/AboutMe';
-import Skills from './pages/Skills';
+import TechSkill from './pages/TechSkill';
+import PeopleSkill from './pages/PeopleSkill';
 
 
 import './App.css';
@@ -18,7 +17,10 @@ function App() {
             <HomePage />
           </div>
           <div>
-            <Skills />
+            <TechSkill />
+          </div>
+          <div>
+            <PeopleSkill />
           </div>
         </div>
       </Router>

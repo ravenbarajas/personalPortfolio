@@ -14,12 +14,6 @@ function HomePage() {
   return (
     <div>
       <div className="homepage-container">
-        <div className="col1">
-          </div>
-          <div className="col2">
-          </div>
-          <div className="col3">
-        </div>
         <div className="leftColumnStyle">
           <div className="blob-frame">
             <img
@@ -37,7 +31,7 @@ function HomePage() {
             <img src={fbIcon}/>
           </div>
         </div>
-        <div className="rightColumnStyle">
+        {/* <div className="rightColumnStyle">
 
         <div className='left-side-col'>
           <div className="nav-bubble">
@@ -69,7 +63,7 @@ function HomePage() {
           </div>
         </div>
 
-        </div>
+        </div> */}
 
       </div>
     </div>
