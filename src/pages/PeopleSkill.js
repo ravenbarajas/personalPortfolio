@@ -64,10 +64,19 @@ function PeopleSkill() {
                 </div>
               </div>
             </div>
+            <div className="soft-skill">
+              <div className="soft-skill-logo-6">
+                <div className='soft-skill-logo-subheader'>
+                    <p>Precise</p>
+                </div>
+                <div className='soft-skill-logo-header'>
+                    <p>Attention to Detail.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
       </div>
   );
 }
