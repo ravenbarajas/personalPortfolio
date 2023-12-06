@@ -32,6 +32,8 @@ import pythonTech from '../assets/skills/pythonTech.png';
 import numpyTech from '../assets/skills/numpyTech.png';
 import tableuTech from '../assets/skills/tableuTech.png';
 
+import seemore from '../assets/seemore.png';
+
 function TechSkill() {
   useEffect(() => {
     // Additional logic or side effects if needed
@@ -46,7 +48,12 @@ function TechSkill() {
           <div className='technical-skills-row'>
             <div className="technical-skill-card-1">
               <div className='tech-skill-logo-card-1'>
-                <p>Frontend Development</p>
+                <div className='tech-skill-logo-card-title'>
+                  <p>Frontend Development</p>
+                </div>
+                <div className='tech-skill-logo-card-seemore'>
+                  <img src={seemore} alt="seemore" />
+                </div>
               </div>
               <div className='tech-skill-desc'>
                 <div className="tech-grid-item"><img src={html5Tech} alt="HTML5" /></div>
@@ -60,7 +67,12 @@ function TechSkill() {
             </div>
             <div className="technical-skill-card-2">
               <div className='tech-skill-logo-card-2'>
-                <p>Backend Development</p>
+                <div className='tech-skill-logo-card-title'>
+                  <p>Backend Development</p>
+                </div>
+                <div className='tech-skill-logo-card-seemore'>
+                  <img src={seemore} alt="seemore" />
+                </div>
               </div>
               <div className='tech-skill-desc'>
                 <div className="tech-grid-item"><img src={djangoTech} alt="djangoTech" /></div>
@@ -71,7 +83,12 @@ function TechSkill() {
             </div>
             <div className="technical-skill-card-3">
                 <div className='tech-skill-logo-card-3'>
-                  <p>Mobile Development</p>
+                  <div className='tech-skill-logo-card-title'>
+                    <p>Mobile Development</p>
+                  </div>
+                  <div className='tech-skill-logo-card-seemore'>
+                    <img src={seemore} alt="seemore" />
+                  </div>
                 </div>
                 <div className='tech-skill-desc'>
                   <div className="tech-grid-item"><img src={xamarinTech} alt="xamarinTech" /></div>
@@ -84,7 +101,12 @@ function TechSkill() {
           <div className='technical-skills-row'>
             <div className="technical-skill-card-4">
               <div className='tech-skill-logo-card-4'>
-                <p>Desktop Development</p>
+                <div className='tech-skill-logo-card-title'>
+                  <p>Desktop Development</p>
+                </div>
+                <div className='tech-skill-logo-card-seemore'>
+                  <img src={seemore} alt="seemore" />
+                </div>
               </div>
               <div className='tech-skill-desc'>
                 <div className="tech-grid-item"><img src={csharpTech} alt="csharpTech" /></div>
@@ -94,7 +116,12 @@ function TechSkill() {
             </div>
             <div className="technical-skill-card-5">
               <div className='tech-skill-logo-card-5'>
-                <p>Project Management</p>
+                <div className='tech-skill-logo-card-title'>
+                  <p>Project Management</p>
+                </div>
+                <div className='tech-skill-logo-card-seemore'>
+                  <img src={seemore} alt="seemore" />
+                </div>
               </div>
               <div className='tech-skill-desc'>
                 <div className="tech-grid-item"><img src={trelloTech} alt="trelloTech" /></div>
@@ -105,7 +132,12 @@ function TechSkill() {
             </div>
             <div className="technical-skill-card-6">
               <div className='tech-skill-logo-card-6'>
-                <p>Data Analytics</p>
+                <div className='tech-skill-logo-card-title'>
+                  <p>Data Analytics</p>
+                </div>
+                <div className='tech-skill-logo-card-seemore'>
+                  <img src={seemore} alt="seemore" />
+                </div>
               </div>
               <div className='tech-skill-desc'>
                 <div className="tech-grid-item"><img src={pythonTech} alt="pythonTech" /></div>

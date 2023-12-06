@@ -15,27 +15,53 @@ function PeopleSkill() {
           <div className='soft-skills-row'>
             <div className="soft-skill">
               <div className="soft-skill-logo-1">
-                <p>Effective Communicator</p>
+                <div className='soft-skill-logo-subheader-wbg'>
+                    <p>Passionate</p>
+                </div>
+                <div className='soft-skill-logo-header-wbg'>
+                    <p>Leader.</p>
+                </div>
               </div>
+              
             </div>
             <div className="soft-skill">
               <div className="soft-skill-logo-2">
-                <p>Effective Leader</p>
+                <div className='soft-skill-logo-subheader-wbg'>
+                    <p>Effective</p>
+                </div>
+                <div className='soft-skill-logo-header-wbg'>
+                    <p>Communicator.</p>
+                </div>
               </div>
             </div>
             <div className="soft-skill">
               <div className="soft-skill-logo-3">
-                <p>Strategic Time Manager</p>
+                <div className='soft-skill-logo-subheader'>
+                    <p>Innovative</p>
+                </div>
+                <div className='soft-skill-logo-header'>
+                    <p>Problem Solver.</p>
+                </div>
               </div>
             </div>
             <div className="soft-skill">
               <div className="soft-skill-logo-4">
-                <p>Problem Solver</p>
+                <div className='soft-skill-logo-subheader-wbg'>
+                    <p>Strategic</p>
+                </div>
+                <div className='soft-skill-logo-header-wbg'>
+                    <p>Time Manager.</p>
+                </div>
               </div>
             </div>
             <div className="soft-skill">
               <div className="soft-skill-logo-5">
-                <p>Attention to Detail</p>
+                <div className='soft-skill-logo-subheader-wbg'>
+                    <p>Precise</p>
+                </div>
+                <div className='soft-skill-logo-header-wbg'>
+                    <p>Attention to Detail.</p>
+                </div>
               </div>
             </div>
           </div>

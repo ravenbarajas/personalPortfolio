@@ -1,0 +1,4 @@
+Electric Blue: #3498db
+Emerald Green: #2ecc71
+Ruby Red: #e74c3c
+Amethyst Purple: #9b59b6
