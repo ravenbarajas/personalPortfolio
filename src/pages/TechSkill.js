@@ -1,40 +1,26 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './TechSkill.css';
 
-
-import frontendDev from '../assets/skills/frontendDev.png';
-
 import html5Tech from '../assets/skills/html5Tech.png';
 import css3Tech from '../assets/skills/css3Tech.png';
 import jsTech from '../assets/skills/jsTech.png';
-import bootstrapTech from '../assets/skills/bootstrapTech.png';
 import reactTech from '../assets/skills/reactTech.png';
-
-import backendDev from '../assets/skills/backendDev.png';
 
 import pythonTech from '../assets/skills/pythonTech.png';
 import phpTech from '../assets/skills/phpTech.png';
 import mysqlTech from '../assets/skills/mysqlTech.png';
 import firebaseTech from '../assets/skills/firebaseTech.png';
 
-import mobileDev from '../assets/skills/mobileDev.png';
-
 import xamarinTech from '../assets/skills/xamarinTech.png';
 import flutterTech from '../assets/skills/flutterTech.png';
 import dotnetTech from '../assets/skills/dotnetTech.png';
 
-import desktopDev from '../assets/skills/desktopDev.png';
-
 import csharpTech from '../assets/skills/csharpTech.png';
 import javaTech from '../assets/skills/javaTech.png';
-
-import projectmanTools from '../assets/skills/projectmanTools.png';
 
 import trelloTech from '../assets/skills/trelloTech.png';
 import clickupTech from '../assets/skills/clickupTech.png';
 import gitTech from '../assets/skills/gitTech.png';
-
-import dataScience from '../assets/skills/dataScience.png';
 
 import numpyTech from '../assets/skills/numpyTech.png';
 import tableuTech from '../assets/skills/tableuTech.png';
@@ -53,20 +39,17 @@ function TechSkill() {
           <div className='technical-skills-row'>
             <div className="technical-skill-card-1">
               <div className='tech-skill-logo-card-1'>
-                <img src={frontendDev}/>
                 <p>Frontend Development</p>
               </div>
               <div className='tech-skill-desc'>
                 <div className="tech-grid-item"><img src={html5Tech} alt="HTML5" /></div>
                 <div className="tech-grid-item"><img src={css3Tech} alt="CSS3" /></div>
                 <div className="tech-grid-item"><img src={jsTech} alt="JavaScript" /></div>
-                <div className="tech-grid-item"><img src={bootstrapTech} alt="Bootstrap" /></div>
                 <div className="tech-grid-item"><img src={reactTech} alt="React" /></div>
               </div>
             </div>
             <div className="technical-skill-card-2">
               <div className='tech-skill-logo-card-2'>
-                <img src={backendDev}/>
                 <p>Backend Development</p>
               </div>
               <div className='tech-skill-desc'>
@@ -77,7 +60,6 @@ function TechSkill() {
             </div>
             <div className="technical-skill-card-3">
                 <div className='tech-skill-logo-card-3'>
-                  <img src={mobileDev}/>
                   <p>Mobile Development</p>
                 </div>
                 <div className='tech-skill-desc'>
@@ -90,7 +72,6 @@ function TechSkill() {
           <div className='technical-skills-row'>
             <div className="technical-skill-card-4">
               <div className='tech-skill-logo-card-4'>
-                <img src={desktopDev}/>
                 <p>Desktop Development</p>
               </div>
               <div className='tech-skill-desc'>
@@ -101,7 +82,6 @@ function TechSkill() {
             </div>
             <div className="technical-skill-card-5">
               <div className='tech-skill-logo-card-5'>
-                <img src={projectmanTools}/>
                 <p>Project Management</p>
               </div>
               <div className='tech-skill-desc'>
@@ -112,8 +92,7 @@ function TechSkill() {
             </div>
             <div className="technical-skill-card-6">
               <div className='tech-skill-logo-card-6'>
-                <img src={dataScience}/>
-                <p>Data Science</p>
+                <p>Data Analytics</p>
               </div>
               <div className='tech-skill-desc'>
                 <div className="tech-grid-item"><img src={numpyTech} alt="numpyTech" /></div>
