@@ -33,10 +33,14 @@
   height: 802px;
   justify-content: center;
 }
-.soft-skills-row {
+.soft-skills-outer-row {
     display: inline-flex;
     transition: transform 0.5s ease;
     padding-left: 10rem;
+    overflow-x: hidden;
+}
+.soft-skills-inner-row {
+    display: inline-flex;
     overflow-x: hidden;
 }
 .soft-skill {
@@ -50,7 +54,7 @@
 }
 .soft-skill-logo-1 {
   width: 100%; /* Adjust the width of the description */
-  height: 100%; /* Adjust the height of the description */
+  height: auto; /* Adjust the height of the description */
   float: right; /* Float the description to the right */
   padding: 10px; /* Add padding as needed */
   box-sizing: border-box; /* Include padding in the total width */
@@ -68,7 +72,7 @@
 }
 .soft-skill-logo-2 {
   width: 100%; /* Adjust the width of the description */
-  height: 100%; /* Adjust the height of the description */
+  height: auto; /* Adjust the height of the description */
   float: right; /* Float the description to the right */
   padding: 10px; /* Add padding as needed */
   box-sizing: border-box; /* Include padding in the total width */
@@ -100,7 +104,7 @@
   border-bottom-right-radius: 2rem; /* Adjust the border-radius to control the roundness */ 
   background-image: url('../assets/skills/softSkill3.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
   background-size: cover; /* Optional: Adjust the background size */
-  background-position: center; 
+  background-position: start; 
 }
 .soft-skill-logo-4 {
   width: 100%; /* Adjust the width of the description */
@@ -156,6 +160,9 @@
     background-size: cover; /* Optional: Adjust the background size */
     background-position: center; 
   }
+.soft-skill-header-container {
+    height: 92%;
+}
 .soft-skill-logo-header, .soft-skill-logo-subheader{
     display: flex;
 }
@@ -198,4 +205,14 @@
     padding-left: 1rem;
     padding-top: 1rem;
     margin: 0;
+}
+.soft-skill-logo-card-seemore {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; /* Adjusted width for the container */
+}
+.soft-skill-logo-card-seemore img {
+    padding-right: 1rem;
+    width: 35px;
+    height: auto;
 }
