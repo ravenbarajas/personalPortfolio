@@ -4,6 +4,7 @@ import { ScrollProvider } from './pages/ScrollContext';
 import HomePage from './pages/HomePage';
 import TechSkill from './pages/TechSkill';
 import PeopleSkill from './pages/PeopleSkill';
+import Projects from './pages/Projects';
 
 
 import './App.css';
@@ -15,12 +16,9 @@ function App() {
         <div className='gradient-background'>
           <div className='hompage-section'>
             <HomePage />
-          </div>
-          <div>
             <TechSkill />
-          </div>
-          <div>
             <PeopleSkill />
+            <Projects />
           </div>
         </div>
       </Router>
