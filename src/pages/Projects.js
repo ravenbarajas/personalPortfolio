@@ -73,6 +73,8 @@ function Projects() {
                 </div>
             </div> 
           </div>
+        </div>
+        <div className='projects-section'> 
           <div className='projects-section-row'>
             <div className="project-card-container">
                 <div className="project-card">

@@ -5,7 +5,8 @@
 }
 .projects-column {
   width: 100%;
-  height: 930px;
+  display: flex;
+  flex-direction: column;
   opacity: 100%;
 }
 .projects-heading {
@@ -28,21 +29,20 @@
 .projects-section {
   display: flex;
   flex-direction: column;
-  height: 802px;
   justify-content: center;
   background-color: #f5f5f5;
 }
 .projects-section-nav-container {
-  height: 10%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f5f5f5;
+  margin: 0;
 }
 .projects-section-nav {
-  height: 60%;
-  width: 25%;
+  height: 100%;
+  width: 400px;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -50,12 +50,13 @@
   align-self: center;
   background-color: #ffffff;
   border-radius: 3rem;
+  margin: 0;
 }
 .projects-nav-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 25%;
+  min-width: 105px;
   border: none;
   border-radius: 3rem;
   height: 85%;
@@ -71,7 +72,7 @@
   color: #ffffff;
 }
 .projects-section-row {
-  height: 90%;
+  height: 30rem;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -79,8 +80,6 @@
 }
 .project-card-container {
   flex: 0 0 auto; /* Prevent soft skills from shrinking */
-  width: 480px;
-  height: 480px; /* Adjusted height to fit hexagon */
   background-color: #f5f5f5;
   margin-right: 16px;
   display: flex;
@@ -89,8 +88,8 @@
 }
 .project-card {
   flex: 0 0 auto; /* Prevent soft skills from shrinking */
-  width: 560px;
-  height: 480px; /* Adjusted height to fit hexagon */
+  width: 520px;
+  height: 400px; /* Adjusted height to fit hexagon */
   background-color: #ffffff;
   margin-right: 16px;
   display: flex;
@@ -136,12 +135,12 @@
 }
 .project-card-header-wbg p {
   color: #333336;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 900;
   font-family: 'Inter', sans-serif;
   justify-items: flex-start;
   text-align: start;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-left: 1rem;
   margin: 0;
 }
