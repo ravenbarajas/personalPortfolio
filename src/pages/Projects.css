@@ -126,6 +126,30 @@
   background-size: cover; /* Optional: Adjust the background size */
   background-position: center; 
 }
+.project-card-image-container-4 {
+  height: 60%;
+  border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  border-top-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  background-image: url('../assets/projects/academic/webdevProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Optional: Adjust the background size */
+  background-position: center; 
+}
+.project-card-image-container-5 {
+  height: 60%;
+  border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  border-top-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  background-image: url('../assets/projects/academic/accprinProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Optional: Adjust the background size */
+  background-position: start; 
+}
+.project-card-image-container-6 {
+  height: 60%;
+  border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  border-top-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  background-image: url('../assets/projects/academic/shsProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Optional: Adjust the background size */
+  background-position: start; 
+}
 .project-card-header-container {
   height: 40%;
   display: flex;

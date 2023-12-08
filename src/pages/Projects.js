@@ -78,41 +78,41 @@ function Projects() {
           <div className='projects-section-row'>
             <div className="project-card-container">
                 <div className="project-card">
-                  <div className='project-card-image-container-1'>
+                  <div className='project-card-image-container-4'>
                           
                   </div>
                     <div className='project-card-header-container'>
                       <div className='project-card-header-wbg'>
-                          <p>Hybrid Recipe Recommender</p>
+                          <p>Travel Brochure Website</p>
                       </div>
                       <div className='project-card-subheader-wbg'>
-                          <p>Capstone Project</p>
+                          <p>Web Development Project</p>
                       </div>
                     </div>
                 </div>
                 <div className="project-card">
-                  <div className='project-card-image-container-2'>
+                  <div className='project-card-image-container-5'>
                           
                   </div>
                     <div className='project-card-header-container'>
                       <div className='project-card-header-wbg'>
-                          <p>E-commerce Website</p>
+                          <p>Bookkeeping Software</p>
                       </div>
                       <div className='project-card-subheader-wbg'>
-                          <p>Technopreneurship Project</p>
+                          <p>Accounting Principles Project</p>
                       </div>
                     </div>
                 </div>
                 <div className="project-card">
-                  <div className='project-card-image-container-3'>
+                  <div className='project-card-image-container-6'>
                           
                   </div>
                     <div className='project-card-header-container'>
                       <div className='project-card-header-wbg'>
-                          <p>Inventory Mangement System</p>
+                          <p>Library Mangement System</p>
                       </div>
                       <div className='project-card-subheader-wbg'>
-                          <p>Applications Development Project</p>
+                          <p>Senior High School Project</p>
                       </div>
                     </div>
                 </div>
