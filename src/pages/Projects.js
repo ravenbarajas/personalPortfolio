@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Projects.css';
 
-import seemore from '../assets/seemore.png';
-
 function Projects() {
   const [selectedBtn, setSelectedBtn] = useState(null);
 
@@ -33,18 +31,87 @@ function Projects() {
             </div>
           </div>
           <div className='projects-section-row'>
-            <div className="project-card">
-                <div className="soft-skill-logo-1">
-                    <div className='soft-skill-header-container'>
-                        <div className='soft-skill-logo-subheader-wbg'>
-                            <p>Passionate</p>
-                        </div>
-                        <div className='soft-skill-logo-header-wbg'>
-                            <p>Leader.</p>
-                        </div>
+            <div className="project-card-container">
+                <div className="project-card">
+                  <div className='project-card-image-container-1'>
+                          
+                  </div>
+                    <div className='project-card-header-container'>
+                      <div className='project-card-header-wbg'>
+                          <p>Hybrid Recipe Recommender</p>
+                      </div>
+                      <div className='project-card-subheader-wbg'>
+                          <p>Capstone Project</p>
+                      </div>
                     </div>
-                    <div className='soft-skill-logo-card-seemore'>
-                    <img src={seemore} alt="seemore" />
+                </div>
+                <div className="project-card">
+                  <div className='project-card-image-container-2'>
+                          
+                  </div>
+                    <div className='project-card-header-container'>
+                      <div className='project-card-header-wbg'>
+                          <p>E-commerce Website</p>
+                      </div>
+                      <div className='project-card-subheader-wbg'>
+                          <p>Technopreneurship Project</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="project-card">
+                  <div className='project-card-image-container-3'>
+                          
+                  </div>
+                    <div className='project-card-header-container'>
+                      <div className='project-card-header-wbg'>
+                          <p>Inventory Mangement System</p>
+                      </div>
+                      <div className='project-card-subheader-wbg'>
+                          <p>Applications Development Project</p>
+                      </div>
+                    </div>
+                </div>
+            </div> 
+          </div>
+          <div className='projects-section-row'>
+            <div className="project-card-container">
+                <div className="project-card">
+                  <div className='project-card-image-container-1'>
+                          
+                  </div>
+                    <div className='project-card-header-container'>
+                      <div className='project-card-header-wbg'>
+                          <p>Hybrid Recipe Recommender</p>
+                      </div>
+                      <div className='project-card-subheader-wbg'>
+                          <p>Capstone Project</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="project-card">
+                  <div className='project-card-image-container-2'>
+                          
+                  </div>
+                    <div className='project-card-header-container'>
+                      <div className='project-card-header-wbg'>
+                          <p>E-commerce Website</p>
+                      </div>
+                      <div className='project-card-subheader-wbg'>
+                          <p>Technopreneurship Project</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="project-card">
+                  <div className='project-card-image-container-3'>
+                          
+                  </div>
+                    <div className='project-card-header-container'>
+                      <div className='project-card-header-wbg'>
+                          <p>Inventory Mangement System</p>
+                      </div>
+                      <div className='project-card-subheader-wbg'>
+                          <p>Applications Development Project</p>
+                      </div>
                     </div>
                 </div>
             </div> 

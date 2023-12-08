@@ -54,6 +54,12 @@
   border-bottom-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
   border-top-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
   border-bottom-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
+  transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+  overflow: hidden;
+}
+.technical-skill-card-1:hover {
+    transform: scale(1.01); /* Zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
 }
 .tech-skill-logo-card-1 p {
   width: 50%;
@@ -77,6 +83,12 @@
     border-bottom-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden;
+}
+.technical-skill-card-2:hover {
+    transform: scale(1.01); /* Zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
 }
 .tech-skill-logo-card-2 p {
     width: 50%;
@@ -102,6 +114,12 @@
     border-bottom-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden;
+}
+.technical-skill-card-3:hover {
+    transform: scale(1.01); /* Zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
 }
 .tech-skill-logo-card-3 p {
     width: 40%;
@@ -125,6 +143,12 @@
     border-bottom-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden;
+}
+.technical-skill-card-4:hover {
+    transform: scale(1.01); /* Zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
 }
 .tech-skill-logo-card-4 p {
     width: 50%;
@@ -150,6 +174,12 @@
     border-bottom-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden;
+}
+.technical-skill-card-5:hover {
+    transform: scale(1.01); /* Zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
 }
 .tech-skill-logo-card-5 p {
     width: 40%;
@@ -174,6 +204,12 @@
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     align-items: start;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden;
+}
+.technical-skill-card-6:hover {
+    transform: scale(1.01); /* Zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
 }
 .tech-skill-logo-card-6 p {
   width: 30%;
