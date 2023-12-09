@@ -21,7 +21,6 @@ function App() {
             <TechSkill />
             <PeopleSkill />
             <Projects />
-            <PersonalProjects />
           </div>
         </div>
       </Router>

@@ -1,11 +1,22 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './AcademicProjects.css';
 
-function Projects() {
+function AcademicProjects() {
+    useEffect(() => {
+        // After rendering, add the 'active' class to trigger the fade-in animation
+        const timer = setTimeout(() => {
+          document.querySelectorAll('.fade-in').forEach((element) => {
+            element.classList.add('active');
+          });
+        }, 100);
+    
+        // Cleanup the timer to avoid memory leaks
+        return () => clearTimeout(timer);
+      }, []);
   return (
     <div className="projects-container">
       <div className='academic-projects-column'>
-        <div className='academic-projects-section'>
+        <div className='academic-projects-section  fade-in'>
           <div className='academic-projects-section-row'>
             <div className="academic-project-card-container">
                 <div className="project-card">
@@ -54,7 +65,7 @@ function Projects() {
           </div>
           
         </div>
-        <div className='academic-projects-section'> 
+        <div className='academic-projects-section fade-in'> 
           <div className='academic-projects-section-row'>
             <div className="academic-project-card-container">
                 <div className="project-card">
@@ -104,4 +115,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default AcademicProjects;

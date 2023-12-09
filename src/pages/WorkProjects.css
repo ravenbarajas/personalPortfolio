@@ -54,21 +54,21 @@
     transform: scale(1.01); /* Zoom effect on hover */
     box-shadow: 0 10px 14px #00000033; /* Shadow effect on hover */
   }
-  .project-card-image-container-1 {
+  .project-card-image-container-7 {
     height: 60%;
     border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
     border-top-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
-    background-image: url('../assets/projects/academic/capstoneProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-image: url('../assets/projects/work/webtemplateProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
     background-size: cover; /* Optional: Adjust the background size */
-    background-position: center; 
+    background-position: start; 
   }
-  .project-card-image-container-2 {
+  .project-card-image-container-8 {
     height: 60%;
     border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
     border-top-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
-    background-image: url('../assets/projects/academic/technoProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-image: url('../assets/projects/work/todoProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
     background-size: cover; /* Optional: Adjust the background size */
-    background-position: center; 
+    background-position: start; 
   }
   .project-card-header-container {
     height: 40%;
@@ -97,6 +97,14 @@
     padding-left: 1rem;
     padding-top: .5rem;
     margin: 0;
+  }
+  .fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in.active {
+    opacity: 1;
   }
   
   
