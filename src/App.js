@@ -5,7 +5,9 @@ import HomePage from './pages/HomePage';
 import TechSkill from './pages/TechSkill';
 import PeopleSkill from './pages/PeopleSkill';
 import Projects from './pages/Projects';
-
+import AcademicProjects from './pages/AcademicProjects';
+import WorkProjects from './pages/WorkProjects';
+import PersonalProjects from './pages/PersonalProjects';
 
 import './App.css';
 
@@ -19,6 +21,7 @@ function App() {
             <TechSkill />
             <PeopleSkill />
             <Projects />
+            <PersonalProjects />
           </div>
         </div>
       </Router>
