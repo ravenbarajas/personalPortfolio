@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import AcademicProjects from './pages/AcademicProjects';
 import WorkProjects from './pages/WorkProjects';
 import PersonalProjects from './pages/PersonalProjects';
+import Education from './pages/Education';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
             <TechSkill />
             <PeopleSkill />
             <Projects />
+            <Education />
           </div>
         </div>
       </Router>

@@ -1,16 +1,44 @@
-.carousel-section {
-    width: 100%;
-    height: 730px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: #272727;
-    flex-direction: column;
-    padding: 0;
+.education-container {
+  display: flex;
+  opacity: 100%;
+  flex-direction: row;
+}
+.education-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  opacity: 100%;
+}
+.education-heading {
+  width: 100%;
+  height: 8rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: start;
+  justify-content: start; /* Horizontally space items at start and end */
+  padding-left: 8rem;
+}
+.education-heading p {
+  width: auto; /* Allow the paragraph to take its natural width */
+  color: #000000;
+  font-size: 64px;
+  font-weight: 900;
+  font-family: 'Inter', sans-serif;
+  z-index: 2;
+}
+.education-section {
+  display: flex;
+  height: 802px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.fade-in.active {
+  opacity: 1;
+}
 
-    .p1 {
-      color: white;
-    }
-  }

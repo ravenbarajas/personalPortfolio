@@ -3,11 +3,13 @@
     flex-direction: row;
     opacity: 100%;
   }
-  .academic-projects-column {
+  .academic-projects-section-column {
     width: 100%;
     display: flex;
     flex-direction: column;
     opacity: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   .academic-projects-section {
     display: flex;
@@ -18,6 +20,7 @@
   .academic-projects-section-row {
     height: 30rem;
     display: flex;
+    flex-direction: row;
     justify-items: center;
     align-items: center;
     justify-content: center;
@@ -40,6 +43,90 @@
     flex: 0 0 auto; /* Prevent soft skills from shrinking */
     width: 520px;
     height: 400px; /* Adjusted height to fit hexagon */
+    background-color: #ffffff;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden; /* Ensure child elements do not overflow */
+  }
+  .project-card-1 {
+    flex: 0 0 auto; /* Prevent soft skills from shrinking */
+    width: 520px;
+    height: 960px; /* Adjusted height to fit hexagon */
+    background-color: #ffffff;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden; /* Ensure child elements do not overflow */
+  }
+  .project-card-2 {
+    flex: 0 0 auto; /* Prevent soft skills from shrinking */
+    width: 520px;
+    height: 480px; /* Adjusted height to fit hexagon */
+    background-color: #ffffff;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden; /* Ensure child elements do not overflow */
+  }
+  .project-card-3 {
+    flex: 0 0 auto; /* Prevent soft skills from shrinking */
+    width: 520px;
+    height: 480px; /* Adjusted height to fit hexagon */
+    background-color: #ffffff;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden; /* Ensure child elements do not overflow */
+  }
+  .project-card-4 {
+    flex: 0 0 auto; /* Prevent soft skills from shrinking */
+    width: 520px;
+    height: 480px; /* Adjusted height to fit hexagon */
+    background-color: #ffffff;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden; /* Ensure child elements do not overflow */
+  }
+  .project-card-5 {
+    flex: 0 0 auto; /* Prevent soft skills from shrinking */
+    width: 520px;
+    height: 480px; /* Adjusted height to fit hexagon */
+    background-color: #ffffff;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for the transform and box-shadow effects */
+    overflow: hidden; /* Ensure child elements do not overflow */
+  }
+  .project-card-6 {
+    flex: 0 0 auto; /* Prevent soft skills from shrinking */
+    width: 520px;
+    height: 480px; /* Adjusted height to fit hexagon */
     background-color: #ffffff;
     display: flex;
     justify-self: center;
