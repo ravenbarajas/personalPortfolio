@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './PersonalProjects.css';
 
+import seemore from '../assets/seemore.png';
+
 function PersonalProjects() {
     useEffect(() => {
         // After rendering, add the 'active' class to trigger the fade-in animation
@@ -19,33 +21,43 @@ function PersonalProjects() {
         <div className='personal-projects-section fade-in'>
           <div className='personal-projects-section-row'>
             <div className="personal-project-card-container">
-                <div className="project-card">
+                <div className="personal-project-card">
 
-                  <div className='project-card-image-container-1'>
+                  <div className='personal-project-card-image-container-1'>
                           
                   </div>
-                    <div className='project-card-header-container'>
-                      <div className='project-card-header-wbg'>
+                  <div className='personal-project-card-header-container-wrapper'>
+                    <div className='personal-project-card-header-container'>
+                      <div className='personal-project-card-header-wbg'>
                           <p>Hybrid Recipe Recommender</p>
                       </div>
-                      <div className='project-card-subheader-wbg'>
+                      <div className='personal-project-card-subheader-wbg'>
                           <p>Capstone Project</p>
                       </div>
                     </div>
+                    <div className='project-seemore'>
+                        <img src={seemore} alt="seemore" />
+                    </div>
+                  </div>
                 </div>
-                <div className="project-card">
+                <div className="personal-project-card">
 
-                  <div className='project-card-image-container-2'>
+                  <div className='personal-project-card-image-container-2'>
                           
                   </div>
-                    <div className='project-card-header-container'>
-                      <div className='project-card-header-wbg'>
+                  <div className='personal-project-card-header-container-wrapper'>
+                    <div className='personal-project-card-header-container'>
+                      <div className='personal-project-card-header-wbg'>
                           <p>E-commerce Website</p>
                       </div>
-                      <div className='project-card-subheader-wbg'>
+                      <div className='personal-project-card-subheader-wbg'>
                           <p>Technopreneurship Project</p>
                       </div>
                     </div>
+                    <div className='project-seemore'>
+                        <img src={seemore} alt="seemore" />
+                    </div>
+                  </div>
                 </div>
             </div> 
           </div>

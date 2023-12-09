@@ -45,9 +45,6 @@ function PeopleSkill() {
                                             <p>Leader.</p>
                                         </div>
                                     </div>
-                                    <div className='soft-skill-logo-card-seemore'>
-                                    <img src={seemore} alt="seemore" />
-                                    </div>
                                 </div>
                             </div> 
                             <div className="soft-skill">
@@ -59,9 +56,6 @@ function PeopleSkill() {
                                         <div className='soft-skill-logo-header-wbg'>
                                             <p>Communicator.</p>
                                         </div>
-                                    </div>
-                                    <div className='soft-skill-logo-card-seemore'>
-                                    <img src={seemore} alt="seemore" />
                                     </div>
                                 </div>
                             </div>
@@ -75,9 +69,6 @@ function PeopleSkill() {
                                             <p>Time Manager.</p>
                                         </div>
                                     </div>
-                                    <div className='soft-skill-logo-card-seemore'>
-                                    <img src={seemore} alt="seemore" />
-                                    </div>
                                 </div>
                             </div>
                             <div className="soft-skill">
@@ -90,9 +81,7 @@ function PeopleSkill() {
                                             <p>Problem Solver.</p>
                                         </div>
                                     </div>
-                                    <div className='soft-skill-logo-card-seemore'>
-                                    <img src={seemore} alt="seemore" />
-                                    </div>
+                                    
                                 </div>
                             </div>
                             <div className="soft-skill">
@@ -105,9 +94,6 @@ function PeopleSkill() {
                                         <p>Attention to Detail.</p>
                                     </div>
                                 </div>
-                                <div className='soft-skill-logo-card-seemore'>
-                                <img src={seemore} alt="seemore" />
-                                </div>
                             </div>
                             </div>
                             <div className="soft-skill">
@@ -119,9 +105,6 @@ function PeopleSkill() {
                                     <div className='soft-skill-logo-header'>
                                         <p>Critical Thinker.</p>
                                     </div>
-                                </div>
-                                <div className='soft-skill-logo-card-seemore'>
-                                <img src={seemore} alt="seemore" />
                                 </div>
                             </div>
                             </div>
