@@ -1,5 +1,37 @@
 /* HomePage.css */
-
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 930px;
+    opacity: 100%;
+    background-color: #f5f5f5;
+}
+.homepage-col-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.left-col-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.blob-frame-card {
+    width: 480px; /* Adjust the width to your desired size */
+    height: 480px; /* Adjust the height to your desired size */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-content: center; /* Vertically center the content */
+    background-color: #ffffff;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin-bottom: .5rem;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
 .blob-frame {
     width: 350px; /* Adjust the width to your desired size */
     height: 350px; /* Adjust the height to your desired size */
@@ -9,64 +41,272 @@
     display: flex; /* Display the blob-frame as a flex container */
     align-items: center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
-    padding-top: 1rem;
     align-self: center;
-    margin-top: -5rem;
 }
-  
-.homepage-container {
+.left-col-contact-card {
+    width: 480px; /* Adjust the width to your desired size */
+    height: 140px; /* Adjust the height to your desired size */
     display: flex;
-    height: 930px;
-    opacity: 100%;
+    justify-content: center; /* Horizontally center the content */
+    align-content: center; /* Vertically center the content */
+    background-color: #ffffff;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    margin-bottom: .5rem;
 }
-
-.leftColumnStyle {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 1);
+.left-col-contact {
     display: flex;
+    justify-self: center; /* Horizontally center the content */
+    align-self: center; /* Vertically center the content */
+    background-color: #ffffff;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.left-col-contact img {
+    width: 60px; /* Adjust the width to your desired size */
+    margin: 0 8px ; /* Add margin for spacing */
+    display: flex;
+    justify-content: center; /* Center horizontally */
     align-items: center;
-    justify-content: center;
+}
+.middle-col-container {
+    display: flex;
     flex-direction: column;
+    justify-content: end;
+    align-self: end;
+}
+.middle-col {
+    margin-left: .5rem;
+}
+.greeting-card {
+    width: 610px; /* Adjust the width to your desired size */
+    height: 260px; /* Adjust the height to your desired size */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #ffffff;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin-bottom: .5rem;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2); /* Add box shadow */
 }
 .greeting-heading {
+    margin: 0;
+    display: flex;
+    justify-items: center; /* Horizontally center the content */
+    align-items: end; /* Vertically center the content */
+    height: 40%;
+}
+.greeting-heading p{
+    margin: 0;
     text-align: center;
-    color: #111111;
+    color: #333336;
     font-weight: bold; /* Make the text bold */
     font-size: 48px;
     font-family: 'Inter', sans-serif;
-    margin-top: 24px;
-    margin-bottom: 80px;
+    padding-left: 2rem;
 }
-.greeting-subheading {
-    text-align: center;
-    color: #111111;
-    font-weight: 100; /* Make the text bold */
-    font-size: 24px;
-    font-family: 'Inter', sans-serif;
-    margin-top: -20px;
+.greeting-heading-card {
+    height: 70%;
+    justify-content: start;
+    align-items: start;
 }
-.greeting-heading-role {
+.greeting-heading-role-1 {
+    margin: 0;
     font-weight: bold;
     font-size: 80px;
     font-family: 'Inter', sans-serif;
-    margin-top: -90px;
-    margin-bottom: 50px;
-    text-align: center;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    padding-left: 2rem;
   
     /* Apply a gradient background to the text */
     background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent; /* Make the text transparent to reveal the gradient */
-  }
-.rightColumnStyle {
-    width: 0%;
+}
+.greeting-heading-role-2 {
+    margin-top: -30px;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Inter', sans-serif;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    padding-left: 2rem;
+  
+    /* Apply a gradient background to the text */
+    background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Make the text transparent to reveal the gradient */
+}
+.aboutme-card {
+    width: 610px; /* Adjust the width to your desired size */
+    height: 300px; /* Adjust the height to your desired size */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background: #ffffff;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin-bottom: .5rem;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+.aboutme-heading {
+    margin: 0;
+    display: flex;
+    justify-items: center; /* Horizontally center the content */
+    align-items: end; /* Vertically center the content */
+    height: 30%;
+}
+.aboutme-heading p {
+    margin: 0;
+    text-align: center;
+    color: #333336;
+    font-weight: bold; /* Make the text bold */
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 2rem;
+}
+.aboutme-subheading-card {
+    height: 80%;
+    justify-content: start;
+    align-items: start;
+}
+.aboutme-subheading{
+    margin: 0;
+    font-weight: 100;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-left: 2rem;
+}
+.aboutme-subheading p{
+    margin: 0;
+    text-align: start;
+    color: #333336;
+    font-weight: normal; /* Make the text bold */
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+.right-col-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: .5rem;
+    align-self: end;
+}
+.techskill-count-card {
+    width: 240px; /* Adjust the width to your desired size */
+    height: 240px; /* Adjust the height to your desired size */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #ffffff;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin-bottom: .5rem;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+.techskill-count-heading {
+    margin: 0;
+    display: flex;
+    justify-items: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 60%;
+}
+.techskill-count-heading p{
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(225deg, #3498db, #2ecc71);
+    -webkit-background-clip: text; /* For Safari/Chrome/iOS */
+    color: transparent;
+    font-weight: bold; /* Make the text bold */
+    font-size: 80px;
+    font-family: 'Inter', sans-serif;
+}
+.techskill-count-subheading {
+    margin: 0;
+    display: flex;
+    justify-items: center; /* Horizontally center the content */
+    align-items: end; /* Vertically center the content */
+    height: 40%;
+}
+.techskill-count-subheading p{
+    margin: 0;
+    text-align: center;
+    color: #333336;
+    font-weight: bold; /* Make the text bold */
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+.proj-count-card {
+    width: 240px; /* Adjust the width to your desired size */
+    height: 240px; /* Adjust the height to your desired size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin-bottom: .5rem;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+.proj-count-heading {
+    margin: 0;
+    display: flex;
+    justify-items: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 60%;
+}
+.proj-count-heading p{
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(225deg, hsla(283, 39%, 53%, 1) 2%, hsla(6, 78%, 57%, 1) 54%);
+    -webkit-background-clip: text; /* For Safari/Chrome/iOS */
+    color: transparent;
+    font-weight: bold; /* Make the text bold */
+    font-size: 80px;
+    font-family: 'Inter', sans-serif;
+}
+.proj-count-subheading {
+    margin: 0;
+    display: flex;
+    justify-items: center; /* Horizontally center the content */
+    align-items: end; /* Vertically center the content */
+    height: 40%;
+}
+.proj-count-subheading p{
+    margin: 0;
+    text-align: center;
+    color: #333336;
+    font-weight: bold; /* Make the text bold */
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .contact-icon {
     width: 30%;
@@ -83,60 +323,6 @@
     justify-content: center; /* Center horizontally */
     align-items: center;
   }
-.nav-bubble p {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 20px;
-}
-.nav-bubble {
-    width: 225px;
-    height: 225px;
-    background-color: #ffffff;
-    margin-left: 6px;
-    overflow: hidden;
-    position: relative;
-    border-radius: 50%; /* Make it a circle */
-    margin: 8px;
-}
-.nav-bubble-logo-3,
-.nav-bubble-logo-4,
-.nav-bubble-logo-5,
-.nav-bubble-logo-6 {
-    width: 100%;
-    height: 100%;
-    float: right;
-    background-color: rgba(255, 102, 30, 0.816);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.nav-bubble-logo-3 img,
-.nav-bubble-logo-4 img,
-.nav-bubble-logo-5 img,
-.nav-bubble-logo-6 img{
-    width: 40%;
-    height: 40%;
-    float: right;
-    box-sizing: border-box;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.nav-bubble-logo-3 {
-    background-color: rgba(235, 27, 42, 0.816);
-}
-.nav-bubble-logo-4 {
-    background-color: rgba(161, 0, 255, 0.816);
-}
-.nav-bubble-logo-5 {
-    background-color: rgba(0, 0, 58, 0.816);
-}
-.nav-bubble-logo-6 {
-    background-color: rgba(0, 150, 215, 0.816);
-}
 .imageStyle { /* Corrected class name */
     max-width: 105%; /* Adjust the maximum width as needed */
     max-height: 105%; /* Adjust the maximum width as needed */

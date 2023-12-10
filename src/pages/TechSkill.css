@@ -266,7 +266,8 @@
   display: flex;
   justify-content: flex-end;
   width: 20%; /* Adjusted width for the container */
-  padding-right: 1rem;
+  margin-top: -1rem;
+  padding-right: .5rem;
 }
 .tech-skill-logo-card-seemore img {
   width: 35px;
