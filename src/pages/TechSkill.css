@@ -4,7 +4,7 @@
   display: flex;
   width: 100%;
   opacity: 100%;
-  background-color: #121212;
+  background-color: #222222;
   flex-direction: row;
 }
 .technical-skill-column {
@@ -15,7 +15,7 @@
 .technical-skill-heading {
   width: 100%;
   height: 8rem;
-  background-color: #121212;
+  background-color: #222222;
   display: flex;
   align-items: start;
   justify-content: start; /* Horizontally space items at start and end */

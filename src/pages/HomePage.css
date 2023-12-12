@@ -108,7 +108,7 @@
 .greeting-heading p{
     margin: 0;
     text-align: center;
-    color: #333336;
+    color: #222222;
     font-weight: bold; /* Make the text bold */
     font-size: 48px;
     font-family: 'Inter', sans-serif;
@@ -176,7 +176,7 @@
 .aboutme-heading p {
     margin: 0;
     text-align: center;
-    color: #333336;
+    color: #222222;
     font-weight: bold; /* Make the text bold */
     font-size: 48px;
     font-family: 'Inter', sans-serif;
@@ -202,7 +202,7 @@
 .aboutme-subheading p{
     margin: 0;
     text-align: start;
-    color: #333336;
+    color: #222222;
     font-weight: normal; /* Make the text bold */
     font-size: 24px;
     font-family: 'Inter', sans-serif;
@@ -256,7 +256,7 @@
 .techskill-count-subheading p{
     margin: 0;
     text-align: center;
-    color: #333336;
+    color: #222222;
     font-weight: bold; /* Make the text bold */
     font-size: 24px;
     font-family: 'Inter', sans-serif;
@@ -303,7 +303,7 @@
 .proj-count-subheading p{
     margin: 0;
     text-align: center;
-    color: #333336;
+    color: #222222;
     font-weight: bold; /* Make the text bold */
     font-size: 24px;
     font-family: 'Inter', sans-serif;
