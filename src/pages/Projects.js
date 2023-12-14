@@ -34,9 +34,14 @@ function Projects() {
   return (
     <div className="projects-container">
       <div className='projects-column'>
-        <div className="projects-heading">
-            <p>Projects</p>
-        </div>
+        <div className="projects-header">
+              <div className="projects-heading">
+                  <p>Projects</p>
+              </div>
+              <div className="projects-subheading">
+                  <p>Diverse practical applications.</p>
+              </div>
+          </div>
         <div className="projects-section-nav-container">
           <div className="projects-section-nav">
           <Link

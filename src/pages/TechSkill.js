@@ -41,8 +41,13 @@ function TechSkill() {
   return (  
     <div className="tech-skills-container">
       <div className='technical-skill-column'>
-        <div className="technical-skill-heading">
-          <p>Technical Skills</p>
+        <div className="technical-skill-header">
+          <div className="technical-skill-heading">
+            <p>Technical Skills</p>
+          </div>
+          <div className="technical-skill-subheading">
+          <p>Programming languages and technologies.</p>
+        </div>
         </div>
         <div className="technical-skills-section"> 
           <div className='technical-skills-row'>

@@ -21,8 +21,13 @@ function PeopleSkill() {
   return (  
     <div className="people-skills-container">
       <div className='soft-skill-column'>
-        <div className="soft-skill-heading">
-          <p>People Skills</p>
+        <div className="soft-skill-header">
+            <div className="soft-skill-heading">
+                <p>People Skills</p>
+            </div>
+            <div className="soft-skill-subheading">
+                <p>Interpersonal and intrapersonal abilities.</p>
+            </div>
         </div>
         <div className="soft-skills-section"> 
             <div className='soft-skills-outer-row'>
