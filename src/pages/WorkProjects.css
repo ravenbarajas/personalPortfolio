@@ -16,7 +16,7 @@
     background-color: #f5f5f5;
   }
   .work-projects-section-row {
-    height: 312px;
+    height: 336px;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -85,12 +85,12 @@
   }
   .work-project-card-header-wbg p {
     color: #333336;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 900;
     font-family: 'Inter', sans-serif;
     justify-items: flex-start;
     text-align: start;
-    padding-top: .5rem;
+    padding-top: .75rem;
     padding-left: 1rem;
     margin: 0;
   }

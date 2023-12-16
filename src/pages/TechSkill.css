@@ -50,8 +50,7 @@
   display: flex;
   flex-direction: row; /* Updated to row */
   align-items: center;
-  justify-content: start;
-  padding-left: 10rem;
+  justify-content: center;
   padding-bottom: 1rem;
 }
 .technical-skill-card-1 {

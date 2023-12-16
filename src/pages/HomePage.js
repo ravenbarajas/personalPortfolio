@@ -4,6 +4,7 @@ import './HomePage.css';
 import githubIcon from '../assets/githubIcon.png';
 import linkedinIcon from '../assets/linkedinIcon.png';
 import fbIcon from '../assets/fbIcon.png';
+import cvIcon from '../assets/cvIcon.png';
 
 import techskillBubble from '../assets/techskillBubble.png';
 import projectsBubble from '../assets/projectsBubble.png';
@@ -27,6 +28,7 @@ function HomePage() {
                   <img src={githubIcon} className="githubIcon"/>
                   <img src={linkedinIcon} className="linkedinIcon"/>
                   <img src={fbIcon} className="fbIcon"/>
+                  <img src={cvIcon} className="cvIcon"/>
                 </div>
               </div>
             </div>
