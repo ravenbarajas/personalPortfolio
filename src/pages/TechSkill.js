@@ -1,5 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './TechSkill.css';
+import FrontendDevModal from '../modals/FrontendDevModal';
+import BackendDevModal from '../modals/BackendDevModal';
+import MobileDevModal from '../modals/MobileDevModal';
+import DesktopDevModal from '../modals/DesktopDevModal';
+import ProjManModal from '../modals/ProjManModal';
+import DataSciModal from '../modals/DataSciModal';
 
 import html5Tech from '../assets/skills/html5Tech.png';
 import css3Tech from '../assets/skills/css3Tech.png';
@@ -38,6 +44,36 @@ function TechSkill() {
   useEffect(() => {
     // Additional logic or side effects if needed
   }, []); // Empty dependency array means this effect runs once when the component mounts
+  
+  const [activeModal, setActiveModal] = useState(null);
+
+  const openModal = (modalType) => {
+    setActiveModal(modalType);
+  };
+
+  const closeModal = () => {
+    setActiveModal(null);
+  };
+
+  const renderModal = () => {
+    switch (activeModal) {
+      case 'FrontendDev':
+        return <FrontendDevModal onClose={closeModal} />;
+      case 'BackendDev':
+        return <BackendDevModal onClose={closeModal} />;
+      case 'MobileDev':
+        return <MobileDevModal onClose={closeModal} />;
+      case 'DesktopDev':
+        return <DesktopDevModal onClose={closeModal} />;
+      case 'ProjMan':
+        return <ProjManModal onClose={closeModal} />;
+      case 'DataSci':
+        return <DataSciModal onClose={closeModal} />;
+      default:
+        return null;
+    }
+  };
+
   return (  
     <div className="tech-skills-container">
       <div className='technical-skill-column'>
@@ -51,13 +87,13 @@ function TechSkill() {
         </div>
         <div className="technical-skills-section"> 
           <div className='technical-skills-row'>
-            <div className="technical-skill-card-1">
+            <div className="technical-skill-card-1" onClick={() => openModal('FrontendDev')}>
               <div className='tech-skill-logo-card-1'>
                 <div className='tech-skill-logo-card-title'>
                   <p>Frontend Development</p>
                 </div>
                 <div className='tech-skill-logo-card-seemore'>
-                  <img src={seemore} alt="seemore" />
+                  <img src={seemore} alt="seemore"/>
                 </div>
               </div>
               <div className='tech-skill-desc'>
@@ -70,7 +106,7 @@ function TechSkill() {
                 <div className="tech-grid-item"><img src={typescriptTech} alt="typescriptTech" /></div>
               </div>
             </div>
-            <div className="technical-skill-card-2">
+            <div className="technical-skill-card-2" onClick={() => openModal('BackendDev')}>
               <div className='tech-skill-logo-card-2'>
                 <div className='tech-skill-logo-card-title'>
                   <p>Backend Development</p>
@@ -86,7 +122,7 @@ function TechSkill() {
                 <div className="tech-grid-item"><img src={firebaseTech} alt="firebaseTech" /></div>
               </div>
             </div>
-            <div className="technical-skill-card-3">
+            <div className="technical-skill-card-3" onClick={() => openModal('MobileDev')}>
                 <div className='tech-skill-logo-card-3'>
                   <div className='tech-skill-logo-card-title'>
                     <p>Mobile Development</p>
@@ -104,7 +140,7 @@ function TechSkill() {
             </div>
           </div>
           <div className='technical-skills-row'>
-            <div className="technical-skill-card-4">
+            <div className="technical-skill-card-4" onClick={() => openModal('DesktopDev')}>
               <div className='tech-skill-logo-card-4'>
                 <div className='tech-skill-logo-card-title'>
                   <p>Desktop Development</p>
@@ -119,7 +155,7 @@ function TechSkill() {
                 <div className="tech-grid-item"><img src={mysqlTech} alt="mysqlTech" /></div>
               </div>
             </div>
-            <div className="technical-skill-card-5">
+            <div className="technical-skill-card-5" onClick={() => openModal('ProjMan')}>
               <div className='tech-skill-logo-card-5'>
                 <div className='tech-skill-logo-card-title'>
                   <p>Project Management</p>
@@ -135,7 +171,7 @@ function TechSkill() {
                 <div className="tech-grid-item"><img src={clickupTech} alt="clickupTech" /></div>
               </div>
             </div>
-            <div className="technical-skill-card-6">
+            <div className="technical-skill-card-6" onClick={() => openModal('DataSci')}>
               <div className='tech-skill-logo-card-6'>
                 <div className='tech-skill-logo-card-title'>
                   <p>Data Analytics</p>
@@ -153,6 +189,7 @@ function TechSkill() {
           </div>
         </div>
       </div>
+      {activeModal && renderModal()}
     </div>
   );
 }

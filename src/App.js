@@ -17,13 +17,11 @@ function App() {
     <ScrollProvider>
       <Router>
         <div className='gradient-background'>
-          <div className='hompage-section'>
-            <HomePage />
-            <TechSkill />
-            <PeopleSkill />
-            <Projects />
-            <Experience />
-          </div>
+          <HomePage />
+          <TechSkill />
+          <PeopleSkill />
+          <Projects />
+          <Experience />
         </div>
       </Router>
     </ScrollProvider>
