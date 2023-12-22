@@ -19,7 +19,6 @@ function App() {
         <div className='gradient-background'>
           <HomePage />
           <TechSkill />
-          <PeopleSkill />
           <Projects />
           <Experience />
         </div>
