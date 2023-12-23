@@ -61,7 +61,7 @@
     flex-direction: row;
     width: 100%;
     padding-top: .5rem;
-    padding-left: .5rem;
+    padding-left: 1rem;
   }
   .frontendDev-modal-row-logo {
     width: 10%;
@@ -89,11 +89,12 @@
   .frontendDev-modal-row-level {
     width: 70%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    
   }
   .progress-bar-container {
-    width: 100%;
+    width: 80%;
     background-color: #f1f1f1;
     border-radius: 16px;
     margin: 5px 0;
@@ -116,10 +117,10 @@
     min-width: 10%;
   }
   .frontendDev-modal-row-header-title {
-    min-width: 20%;
+    min-width: 25%;
   }
   .frontendDev-modal-row-header-level {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: row;
   }
