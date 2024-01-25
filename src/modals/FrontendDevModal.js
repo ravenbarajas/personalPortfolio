@@ -8,25 +8,25 @@ import exitModalRed from '../assets/exitModalRed.png';
 
 import frontendDev from '../assets/frontendDev.png';
 
-import html5Tech from '../assets/skills/html5Tech.png';
-import css3Tech from '../assets/skills/css3Tech.png';
-import jsTech from '../assets/skills/jsTech.png';
-import reactTech from '../assets/skills/reactTech.png';
-import bootstrapTech from '../assets/skills/reactTech.png';
-import typescriptTech from '../assets/skills/typescriptTech.png';
-import figmaTech from '../assets/skills/figmaTech.png';
+import html5Tech from '../assets/skills/frontendSkills/html5Tech.png';
+import css3Tech from '../assets/skills/frontendSkills/css3Tech.png';
+import jsTech from '../assets/skills/frontendSkills/jsTech.png';
+import reactTech from '../assets/skills/frontendSkills/reactTech.png';
+import bootstrapTech from '../assets/skills/frontendSkills/bsTech.png';
+import figmaTech from '../assets/skills/frontendSkills/figmaTech.png';
+import protoTech from '../assets/skills/frontendSkills/protoTech.png';
 
 function FrontendDevModal({ onClose }) {
   const HTMLSkills = 90; // Set your desired percentage
   const CSSSkills = 90; // Set your desired percentage
-  const JSSkills = 75; // Set your desired percentage
-  const ReactSkills = 80; // Set your desired percentage
-  const BootstrapSkills = 60; // Set your desired percentage
-  const TSSkills = 35; // Set your desired percentage
-  const FigmaSkills = 70; // Set your desired percentage
+  const JSSkills = 90; // Set your desired percentage
+  const ReactSkills = 90; // Set your desired percentage
+  const BootstrapSkills = 65; // Set your desired percentage
+  const FigmaSkills = 80; // Set your desired percentage
+  const ProtoSkills = 70; // Set your desired percentage
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
+    <div className="frontendDev-modal-overlay" onClick={onClose}>
       <div className="frontendDev-modal-content" onClick={(e) => e.stopPropagation()}>
         <div className='frontendDev-modal-nav'>
           <img
@@ -63,7 +63,7 @@ function FrontendDevModal({ onClose }) {
           </div>
           <div className='frontendDev-modal-row'>
             <div className='frontendDev-modal-row-logo'>
-              <img src={frontendDev} alt="frontendDev" />
+              <img src={html5Tech} alt="frontendDev" />
             </div>
             <div className='frontendDev-modal-row-title'>
               <p>HTML</p>
@@ -82,7 +82,7 @@ function FrontendDevModal({ onClose }) {
           </div>
           <div className='frontendDev-modal-row'>
             <div className='frontendDev-modal-row-logo'>
-              <img src={frontendDev} alt="frontendDev" />
+              <img src={css3Tech} alt="frontendDev" />
             </div>
             <div className='frontendDev-modal-row-title'>
               <p>CSS</p>
@@ -101,7 +101,7 @@ function FrontendDevModal({ onClose }) {
           </div>
           <div className='frontendDev-modal-row'>
             <div className='frontendDev-modal-row-logo'>
-              <img src={frontendDev} alt="frontendDev" />
+              <img src={jsTech} alt="frontendDev" />
             </div>
             <div className='frontendDev-modal-row-title'>
               <p>JavaScript</p>
@@ -120,7 +120,7 @@ function FrontendDevModal({ onClose }) {
           </div>
           <div className='frontendDev-modal-row'>
             <div className='frontendDev-modal-row-logo'>
-              <img src={frontendDev} alt="frontendDev" />
+              <img src={reactTech} alt="frontendDev" />
             </div>
             <div className='frontendDev-modal-row-title'>
               <p>React</p>
@@ -139,7 +139,7 @@ function FrontendDevModal({ onClose }) {
           </div>
           <div className='frontendDev-modal-row'>
             <div className='frontendDev-modal-row-logo'>
-              <img src={frontendDev} alt="frontendDev" />
+              <img src={bootstrapTech} alt="frontendDev" />
             </div>
             <div className='frontendDev-modal-row-title'>
               <p>Bootstrap</p>
@@ -158,26 +158,7 @@ function FrontendDevModal({ onClose }) {
           </div>
           <div className='frontendDev-modal-row'>
             <div className='frontendDev-modal-row-logo'>
-              <img src={frontendDev} alt="frontendDev" />
-            </div>
-            <div className='frontendDev-modal-row-title'>
-              <p>TypeScript</p>
-            </div>
-            <div className='frontendDev-modal-row-level'>
-              <div className='progress-bar-container'>
-                <div
-                  className='progress-bar'
-                  style={{ width: `${TSSkills}%`, backgroundColor: '#4CAF50' }}
-                >
-                  {/* The percentage text is here but made invisible */}
-                  <span className='invisible-text'>{TSSkills}%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='frontendDev-modal-row'>
-            <div className='frontendDev-modal-row-logo'>
-              <img src={frontendDev} alt="frontendDev" />
+              <img src={figmaTech} alt="frontendDev" />
             </div>
             <div className='frontendDev-modal-row-title'>
               <p>Figma</p>
@@ -190,6 +171,25 @@ function FrontendDevModal({ onClose }) {
                 >
                   {/* The percentage text is here but made invisible */}
                   <span className='invisible-text'>{FigmaSkills}%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='frontendDev-modal-row'>
+            <div className='frontendDev-modal-row-logo'>
+              <img src={protoTech} alt="frontendDev" />
+            </div>
+            <div className='frontendDev-modal-row-title'>
+              <p>Proto.io</p>
+            </div>
+            <div className='frontendDev-modal-row-level'>
+              <div className='progress-bar-container'>
+                <div
+                  className='progress-bar'
+                  style={{ width: `${ProtoSkills}%`, backgroundColor: '#4CAF50' }}
+                >
+                  {/* The percentage text is here but made invisible */}
+                  <span className='invisible-text'>{ProtoSkills}%</span>
                 </div>
               </div>
             </div>
