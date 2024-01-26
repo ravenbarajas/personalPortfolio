@@ -6,16 +6,16 @@ import './DBManagementModal.css'; // Import the CSS file
 import exitModal from '../assets/exitModal.png';
 import exitModalRed from '../assets/exitModalRed.png';
 
-import csharpTech from '../assets/skills/desktopSkills/csharpTech.png';
-import mysqlTech from '../assets/skills/desktopSkills/mysqlTech.png';
-import sapTech from '../assets/skills/desktopSkills/sapTech.png';
-import wpfTech from '../assets/skills/desktopSkills/wpfTech.png';
+import firebaseTech from '../assets/skills/databaseSkills/firebaseTech.png';
+import mssqlTech from '../assets/skills/databaseSkills/mssqlTech.png';
+import mysqlTech from '../assets/skills/databaseSkills/mysqlTech.png';
+import postgresqlTech from '../assets/skills/databaseSkills/postgresqlTech.png';
 
 function DBManagementModal({ onClose }) {
-  const CSHARPSkills = 90; // Set your desired percentage
-  const MYSQLSkills = 85; // Set your desired percentage
-  const SAPSKills = 80; // Set your desired percentage
-  const WPFSKills = 85; // Set your desired percentage
+  const FIREBASESkills = 90; // Set your desired percentage
+  const MSSQLSkills = 85; // Set your desired percentage
+  const MYSQLSkills = 80; // Set your desired percentage
+  const POSTGRESQLSKills = 85; // Set your desired percentage
 
   return (
     <div className="databaseMan-modal-overlay" onClick={onClose}>
@@ -55,19 +55,38 @@ function DBManagementModal({ onClose }) {
           </div>
           <div className='databaseMan-modal-row'>
             <div className='databaseMan-modal-row-logo'>
-              <img src={csharpTech} alt="databaseMan" />
+              <img src={firebaseTech} alt="databaseMan" />
             </div>
             <div className='databaseMan-modal-row-title'>
-              <p>C# .Net</p>
+              <p>Firebase Database</p>
             </div>
             <div className='databaseMan-modal-row-level'>
               <div className='progress-bar-container'>
                 <div
                   className='progress-bar'
-                  style={{ width: `${CSHARPSkills}%`, backgroundColor: '#4CAF50' }}
+                  style={{ width: `${FIREBASESkills}%`, backgroundColor: '#4CAF50' }}
                 >
                   {/* The percentage text is here but made invisible */}
-                  <span className='invisible-text'>{CSHARPSkills}%</span>
+                  <span className='invisible-text'>{FIREBASESkills}%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='databaseMan-modal-row'>
+            <div className='databaseMan-modal-row-logo'>
+              <img src={mssqlTech} alt="databaseMan" />
+            </div>
+            <div className='databaseMan-modal-row-title'>
+              <p>Microsoft SQL</p>
+            </div>
+            <div className='databaseMan-modal-row-level'>
+              <div className='progress-bar-container'>
+                <div
+                  className='progress-bar'
+                  style={{ width: `${MSSQLSkills}%`, backgroundColor: '#4CAF50' }}
+                >
+                  {/* The percentage text is here but made invisible */}
+                  <span className='invisible-text'>{MSSQLSkills}%</span>
                 </div>
               </div>
             </div>
@@ -77,7 +96,7 @@ function DBManagementModal({ onClose }) {
               <img src={mysqlTech} alt="databaseMan" />
             </div>
             <div className='databaseMan-modal-row-title'>
-              <p>MySQl</p>
+              <p>MySQL</p>
             </div>
             <div className='databaseMan-modal-row-level'>
               <div className='progress-bar-container'>
@@ -93,38 +112,19 @@ function DBManagementModal({ onClose }) {
           </div>
           <div className='databaseMan-modal-row'>
             <div className='databaseMan-modal-row-logo'>
-              <img src={sapTech} alt="databaseMan" />
+              <img src={postgresqlTech} alt="databaseMan" />
             </div>
             <div className='databaseMan-modal-row-title'>
-              <p>SAP Crystal Reports</p>
+              <p>Postgresql</p>
             </div>
             <div className='databaseMan-modal-row-level'>
               <div className='progress-bar-container'>
                 <div
                   className='progress-bar'
-                  style={{ width: `${SAPSKills}%`, backgroundColor: '#4CAF50' }}
+                  style={{ width: `${POSTGRESQLSKills}%`, backgroundColor: '#4CAF50' }}
                 >
                   {/* The percentage text is here but made invisible */}
-                  <span className='invisible-text'>{SAPSKills}%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='databaseMan-modal-row'>
-            <div className='databaseMan-modal-row-logo'>
-              <img src={wpfTech} alt="databaseMan" />
-            </div>
-            <div className='databaseMan-modal-row-title'>
-              <p>Windows Platform Foundations</p>
-            </div>
-            <div className='databaseMan-modal-row-level'>
-              <div className='progress-bar-container'>
-                <div
-                  className='progress-bar'
-                  style={{ width: `${WPFSKills}%`, backgroundColor: '#4CAF50' }}
-                >
-                  {/* The percentage text is here but made invisible */}
-                  <span className='invisible-text'>{WPFSKills}%</span>
+                  <span className='invisible-text'>{POSTGRESQLSKills}%</span>
                 </div>
               </div>
             </div>

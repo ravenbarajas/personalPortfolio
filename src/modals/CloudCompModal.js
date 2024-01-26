@@ -6,16 +6,12 @@ import './CloudCompModal.css'; // Import the CSS file
 import exitModal from '../assets/exitModal.png';
 import exitModalRed from '../assets/exitModalRed.png';
 
-import csharpTech from '../assets/skills/desktopSkills/csharpTech.png';
-import mysqlTech from '../assets/skills/desktopSkills/mysqlTech.png';
-import sapTech from '../assets/skills/desktopSkills/sapTech.png';
-import wpfTech from '../assets/skills/desktopSkills/wpfTech.png';
+import awsTech from '../assets/skills/cloudcompSkills/awsTech.png';
+import gcpTech from '../assets/skills/cloudcompSkills/gcpTech.png';
 
 function CloudCompModal({ onClose }) {
-  const CSHARPSkills = 90; // Set your desired percentage
-  const MYSQLSkills = 85; // Set your desired percentage
-  const SAPSKills = 80; // Set your desired percentage
-  const WPFSKills = 85; // Set your desired percentage
+  const AWSSkills = 90; // Set your desired percentage
+  const GCPSKills = 85; // Set your desired percentage
 
   return (
     <div className="cloudComp-modal-overlay" onClick={onClose}>
@@ -55,76 +51,38 @@ function CloudCompModal({ onClose }) {
           </div>
           <div className='cloudComp-modal-row'>
             <div className='cloudComp-modal-row-logo'>
-              <img src={csharpTech} alt="cloudComp" />
+              <img src={awsTech} alt="cloudComp" />
             </div>
             <div className='cloudComp-modal-row-title'>
-              <p>C# .Net</p>
+              <p>Amazon Web Services</p>
             </div>
             <div className='cloudComp-modal-row-level'>
               <div className='progress-bar-container'>
                 <div
                   className='progress-bar'
-                  style={{ width: `${CSHARPSkills}%`, backgroundColor: '#4CAF50' }}
+                  style={{ width: `${AWSSkills}%`, backgroundColor: '#4CAF50' }}
                 >
                   {/* The percentage text is here but made invisible */}
-                  <span className='invisible-text'>{CSHARPSkills}%</span>
+                  <span className='invisible-text'>{AWSSkills}%</span>
                 </div>
               </div>
             </div>
           </div>
           <div className='cloudComp-modal-row'>
             <div className='cloudComp-modal-row-logo'>
-              <img src={mysqlTech} alt="cloudComp" />
+              <img src={gcpTech} alt="cloudComp" />
             </div>
             <div className='cloudComp-modal-row-title'>
-              <p>MySQl</p>
+              <p>Google Cloud Platform</p>
             </div>
             <div className='cloudComp-modal-row-level'>
               <div className='progress-bar-container'>
                 <div
                   className='progress-bar'
-                  style={{ width: `${MYSQLSkills}%`, backgroundColor: '#4CAF50' }}
+                  style={{ width: `${GCPSKills}%`, backgroundColor: '#4CAF50' }}
                 >
                   {/* The percentage text is here but made invisible */}
-                  <span className='invisible-text'>{MYSQLSkills}%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='cloudComp-modal-row'>
-            <div className='cloudComp-modal-row-logo'>
-              <img src={sapTech} alt="cloudComp" />
-            </div>
-            <div className='cloudComp-modal-row-title'>
-              <p>SAP Crystal Reports</p>
-            </div>
-            <div className='cloudComp-modal-row-level'>
-              <div className='progress-bar-container'>
-                <div
-                  className='progress-bar'
-                  style={{ width: `${SAPSKills}%`, backgroundColor: '#4CAF50' }}
-                >
-                  {/* The percentage text is here but made invisible */}
-                  <span className='invisible-text'>{SAPSKills}%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='cloudComp-modal-row'>
-            <div className='cloudComp-modal-row-logo'>
-              <img src={wpfTech} alt="cloudComp" />
-            </div>
-            <div className='cloudComp-modal-row-title'>
-              <p>Windows Platform Foundations</p>
-            </div>
-            <div className='cloudComp-modal-row-level'>
-              <div className='progress-bar-container'>
-                <div
-                  className='progress-bar'
-                  style={{ width: `${WPFSKills}%`, backgroundColor: '#4CAF50' }}
-                >
-                  {/* The percentage text is here but made invisible */}
-                  <span className='invisible-text'>{WPFSKills}%</span>
+                  <span className='invisible-text'>{GCPSKills}%</span>
                 </div>
               </div>
             </div>

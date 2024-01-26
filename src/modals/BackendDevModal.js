@@ -11,15 +11,14 @@ import laravelTech from '../assets/skills/backendSkills/laravelTech.png';
 import nodejsTech from '../assets/skills/backendSkills/nodejsTech.png';
 import phpTech from '../assets/skills/backendSkills/phpTech.png';
 
-function FrontendDevModal({ onClose }) {
-  const DJANGOSkills = 75; // Set your desired percentage
+function BackendDevModal({ onClose }) {
+  const DJANGOSkills = 90; // Set your desired percentage
   const LARAVELSkills = 85; // Set your desired percentage
-  const NODEJSSkills = 70; // Set your desired percentage
-  const PHPSkills = 80; // Set your desired percentage
-
+  const NODEJSSkill = 90; // Set your desired percentage
+  const PHPSkills = 85; // Set your desired percentage
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
+    <div className="backendDev-modal-overlay" onClick={onClose}>
       <div className="backendDev-modal-content" onClick={(e) => e.stopPropagation()}>
         <div className='backendDev-modal-nav'>
           <img
@@ -97,16 +96,16 @@ function FrontendDevModal({ onClose }) {
               <img src={nodejsTech} alt="backendDev" />
             </div>
             <div className='backendDev-modal-row-title'>
-              <p>Node .js</p>
+              <p>Node JS</p>
             </div>
             <div className='backendDev-modal-row-level'>
               <div className='progress-bar-container'>
                 <div
                   className='progress-bar'
-                  style={{ width: `${NODEJSSkills}%`, backgroundColor: '#4CAF50' }}
+                  style={{ width: `${NODEJSSkill}%`, backgroundColor: '#4CAF50' }}
                 >
                   {/* The percentage text is here but made invisible */}
-                  <span className='invisible-text'>{NODEJSSkills}%</span>
+                  <span className='invisible-text'>{NODEJSSkill}%</span>
                 </div>
               </div>
             </div>
@@ -136,4 +135,4 @@ function FrontendDevModal({ onClose }) {
   );
 }
 
-export default FrontendDevModal;
+export default BackendDevModal;
