@@ -12,10 +12,10 @@ import mysqlTech from '../assets/skills/databaseSkills/mysqlTech.png';
 import postgresqlTech from '../assets/skills/databaseSkills/postgresqlTech.png';
 
 function DBManagementModal({ onClose }) {
-  const FIREBASESkills = 90; // Set your desired percentage
-  const MSSQLSkills = 85; // Set your desired percentage
-  const MYSQLSkills = 80; // Set your desired percentage
-  const POSTGRESQLSKills = 85; // Set your desired percentage
+  const FIREBASESkills = 50; // Set your desired percentage
+  const MSSQLSkills = 60; // Set your desired percentage
+  const MYSQLSkills = 70; // Set your desired percentage
+  const POSTGRESQLSKills = 65; // Set your desired percentage
 
   return (
     <div className="databaseMan-modal-overlay" onClick={onClose}>

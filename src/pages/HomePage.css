@@ -9,8 +9,8 @@
 }
 .homepage-col-container {
     display: flex;
+    align-content: center;
     justify-content: center;
-    align-items: center;
     background-color: #f5f5f5;
 }
 .left-col-container {

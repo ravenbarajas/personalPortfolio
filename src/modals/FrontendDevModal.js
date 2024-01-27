@@ -17,13 +17,13 @@ import figmaTech from '../assets/skills/frontendSkills/figmaTech.png';
 import protoTech from '../assets/skills/frontendSkills/protoTech.png';
 
 function FrontendDevModal({ onClose }) {
-  const HTMLSkills = 90; // Set your desired percentage
-  const CSSSkills = 90; // Set your desired percentage
-  const JSSkills = 90; // Set your desired percentage
-  const ReactSkills = 90; // Set your desired percentage
-  const BootstrapSkills = 65; // Set your desired percentage
-  const FigmaSkills = 80; // Set your desired percentage
-  const ProtoSkills = 70; // Set your desired percentage
+  const HTMLSkills = 85; // Set your desired percentage
+  const CSSSkills = 85; // Set your desired percentage
+  const JSSkills = 85; // Set your desired percentage
+  const ReactSkills = 80; // Set your desired percentage
+  const BootstrapSkills = 45; // Set your desired percentage
+  const FigmaSkills = 65; // Set your desired percentage
+  const ProtoSkills = 50; // Set your desired percentage
 
   return (
     <div className="frontendDev-modal-overlay" onClick={onClose}>

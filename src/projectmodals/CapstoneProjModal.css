@@ -1,0 +1,162 @@
+/* CloudCompModal.css */
+
+.capstoneProj-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  .capstoneProj-modal-overlay.active {
+    overflow: hidden;
+  }
+  
+  .capstoneProj-modal-content {
+    background: #fff; /* White background for the modal content */
+    padding: 20px;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle lift effect */
+    width: 1200px; /* Adjust the max-width as needed */
+    height: 800px;
+    text-align: center;
+  }
+  
+  .capstoneProj-modal-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .capstoneProj-modal-nav img {
+    width: 35px;
+    height: auto;
+  }
+  .capstoneProj-modal-nav img:hover {
+    cursor: pointer;
+  }
+  .capstoneProj-modal-heading {
+    padding: 1rem;
+  }
+  .capstoneProj-modal-header p {
+    color: #222222;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    text-align: start;
+    margin: 0; /* Remove default margin */
+  }
+  .capstoneProj-modal-subheader p {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Inter', sans-serif, Medium;
+    text-align: start;
+    margin: 0; /* Remove default margin */
+  }
+  .capstoneProj-modal-body {
+    height: 636px;
+    padding: 1rem;
+    max-height: 668px; /* Set your desired max height */
+    overflow-y: auto;
+  }
+  .capstoneProj-modal-body-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 668px; /* Set your desired max height */
+  }
+  .capstoneProj-modal-body-row {
+    padding-bottom: 1rem;
+  }
+  .capstoneProj-modal-body-col {
+    display: flex;
+    flex-direction: row;
+  }
+  .capstoneProj-modal-body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .capstoneProj-modal-body::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 3px;
+  }
+  
+  .capstoneProj-modal-body::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+  }
+  .capstoneProj-modal-body-subheader p {
+    color: #222222;
+    width: 95%;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Inter', sans-serif, Medium;
+    text-align: justify;
+    margin: 0; /* Remove default margin */
+  }
+  .capstoneProj-modal-body-leftcol {
+    height: 636px;
+    width: 50%;
+  }
+  .capstoneProj-modal-body-leftcol-upper {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .capstoneProj-modal-body-leftcol-middle {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .capstoneProj-modal-body-leftcol-lower {
+    height: 636px;
+    height: 30%;
+  }
+  .capstoneProj-modal-body-rightcol {
+    width: 50%;
+    height: 636px;
+    margin-left: 1rem;
+    background-image: url('../assets/projects/academic/capstoneProj.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Optional: Adjust the background size */
+    background-position: center; 
+    border-radius: 2rem;
+  }
+  .capstoneProj-modal-body-navrow {
+    display: flex;
+    padding-bottom: 4px;
+  }
+  .capstoneProj-modal-body-navrow-item {
+    display: flex;
+    height: 36px;
+    min-width: auto;
+    background-color: #333336;
+    margin-left: 4px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 48px;
+  }
+  .capstoneProj-modal-body-navrow-item p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+  }
+  .capstoneProj-modal-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: .5rem;
+    padding-left: 1rem;
+  }
+  

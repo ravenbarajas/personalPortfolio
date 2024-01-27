@@ -61,7 +61,11 @@ function PersonalProjects() {
                 </div>
             </div> 
           </div>
-          
+          <div className='personal-projects-section-row'>
+            <div className="personal-project-card-container">
+  
+            </div> 
+          </div>
         </div>
       </div>
     </div>

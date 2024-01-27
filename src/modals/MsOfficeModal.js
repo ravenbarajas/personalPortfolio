@@ -11,9 +11,9 @@ import pptTech from '../assets/skills/msofficeSkills/pptTech.png';
 import wordTech from '../assets/skills/msofficeSkills/wordTech.png';
 
 function MSOfficeModal({ onClose }) {
-  const EXCELSkills = 90; // Set your desired percentage
-  const PPTSkills = 85; // Set your desired percentage
-  const WORDSkills = 80; // Set your desired percentage
+  const EXCELSkills = 95; // Set your desired percentage
+  const PPTSkills = 95; // Set your desired percentage
+  const WORDSkills = 95; // Set your desired percentage
 
   return (
     <div className="msOffice-modal-overlay" onClick={onClose}>

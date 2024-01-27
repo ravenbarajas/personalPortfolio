@@ -11,9 +11,9 @@ import sapTech from '../assets/skills/desktopSkills/sapTech.png';
 import wpfTech from '../assets/skills/desktopSkills/wpfTech.png';
 
 function DesktopDevModal({ onClose }) {
-  const CSHARPSkills = 90; // Set your desired percentage
-  const SAPSKills = 80; // Set your desired percentage
-  const WPFSKills = 85; // Set your desired percentage
+  const CSHARPSkills = 75; // Set your desired percentage
+  const SAPSKills = 70; // Set your desired percentage
+  const WPFSKills = 75; // Set your desired percentage
 
   return (
     <div className="desktopDev-modal-overlay" onClick={onClose}>

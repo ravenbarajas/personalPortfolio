@@ -13,11 +13,11 @@ import rTech from '../assets/skills/datasciSkills/rTech.png';
 import tableauTech from '../assets/skills/datasciSkills/tableauTech.png';
 
 function DataSciModal({ onClose }) {
-  const NUMPYSkills = 90; // Set your desired percentage
-  const PANDASkills = 80; // Set your desired percentage
-  const PYTHONSkills = 85; // Set your desired percentage
-  const RSkills = 85; // Set your desired percentage
-  const TABLEAUSkills = 85; // Set your desired percentage
+  const NUMPYSkills = 65; // Set your desired percentage
+  const PANDASkills = 65; // Set your desired percentage
+  const PYTHONSkills = 75; // Set your desired percentage
+  const RSkills = 30; // Set your desired percentage
+  const TABLEAUSkills = 45; // Set your desired percentage
 
   return (
     <div className="dataSci-modal-overlay" onClick={onClose}>
@@ -79,7 +79,7 @@ function DataSciModal({ onClose }) {
               <img src={pandaTech} alt="dataSci" />
             </div>
             <div className='dataSci-modal-row-title'>
-              <p>Panda</p>
+              <p>Pandas</p>
             </div>
             <div className='dataSci-modal-row-level'>
               <div className='progress-bar-container'>

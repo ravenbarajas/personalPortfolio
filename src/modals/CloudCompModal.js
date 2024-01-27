@@ -10,8 +10,8 @@ import awsTech from '../assets/skills/cloudcompSkills/awsTech.png';
 import gcpTech from '../assets/skills/cloudcompSkills/gcpTech.png';
 
 function CloudCompModal({ onClose }) {
-  const AWSSkills = 90; // Set your desired percentage
-  const GCPSKills = 85; // Set your desired percentage
+  const AWSSkills = 30; // Set your desired percentage
+  const GCPSKills = 50; // Set your desired percentage
 
   return (
     <div className="cloudComp-modal-overlay" onClick={onClose}>

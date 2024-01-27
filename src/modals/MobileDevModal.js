@@ -12,10 +12,10 @@ import kotlinTech from '../assets/skills/mobiledevSkills/kotlinTech.png';
 import xamarinTech from '../assets/skills/mobiledevSkills/xamarinTech.png';
 
 function MobileDevModal({ onClose }) {
-  const DOTNETSkills = 90; // Set your desired percentage
-  const FLUTTERSkills = 50; // Set your desired percentage
-  const KOTLINSKills = 60; // Set your desired percentage
-  const XAMARINSKills = 85; // Set your desired percentage
+  const DOTNETSkills = 75; // Set your desired percentage
+  const FLUTTERSkills = 20; // Set your desired percentage
+  const KOTLINSKills = 30; // Set your desired percentage
+  const XAMARINSKills = 70; // Set your desired percentage
 
   return (
     <div className="mobileDev-modal-overlay" onClick={onClose}>
@@ -58,7 +58,7 @@ function MobileDevModal({ onClose }) {
               <img src={dotnetTech} alt="mobileDev" />
             </div>
             <div className='mobileDev-modal-row-title'>
-              <p>.Net</p>
+              <p>.Net MAUI</p>
             </div>
             <div className='mobileDev-modal-row-level'>
               <div className='progress-bar-container'>

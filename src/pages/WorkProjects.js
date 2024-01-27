@@ -61,7 +61,11 @@ function WorkProjects() {
                 </div>
             </div> 
           </div>
-          
+          <div className='work-projects-section-row'>
+            <div className="work-project-card-container">
+ 
+            </div> 
+          </div>
         </div>
       </div>
     </div>

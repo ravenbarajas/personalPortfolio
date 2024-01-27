@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './AcademicProjects.css';
 
+import CapstoneProjModal from '../projectmodals/CapstoneProjModal';
+
 import seemore from '../assets/seemore.png';
 
 function AcademicProjects() {
@@ -15,15 +17,30 @@ function AcademicProjects() {
         // Cleanup the timer to avoid memory leaks
         return () => clearTimeout(timer);
       }, []);
+      const [activeModal, setActiveModal] = useState(null);
+      const openModal = (modalType) => {
+        setActiveModal(modalType);
+      };
+      const closeModal = () => {
+        setActiveModal(null);
+      };
+      const renderModal = () => {
+        switch (activeModal) {
+          case 'CapstoneProj':
+            return <CapstoneProjModal onClose={closeModal} />;
+          default:
+            return null;
+        }
+      };
   return (
     <div className="projects-container">
       <div className='academic-projects-column'>
         <div className='academic-projects-section  fade-in'>
           <div className='academic-projects-section-row'>
             <div className="academic-project-card-container">
-                <div className="academic-project-card">
+                <div className="academic-project-card" onClick={() => openModal('CapstoneProj')}>
 
-                  <div className='academic-project-card-image-container-1'>
+                  <div className='academic-project-card-image-container-1' >
                           
                   </div>
                   <div className='academic-project-card-header-container-wrapper'>
@@ -143,6 +160,7 @@ function AcademicProjects() {
           </div>
         </div>
       </div>
+      {activeModal && renderModal()}
     </div>
   );
 }

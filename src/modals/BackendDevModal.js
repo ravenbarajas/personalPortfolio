@@ -12,10 +12,10 @@ import nodejsTech from '../assets/skills/backendSkills/nodejsTech.png';
 import phpTech from '../assets/skills/backendSkills/phpTech.png';
 
 function BackendDevModal({ onClose }) {
-  const DJANGOSkills = 90; // Set your desired percentage
-  const LARAVELSkills = 85; // Set your desired percentage
-  const NODEJSSkill = 90; // Set your desired percentage
-  const PHPSkills = 85; // Set your desired percentage
+  const DJANGOSkills = 55; // Set your desired percentage
+  const LARAVELSkills = 75; // Set your desired percentage
+  const NODEJSSkill = 65; // Set your desired percentage
+  const PHPSkills = 70; // Set your desired percentage
 
   return (
     <div className="backendDev-modal-overlay" onClick={onClose}>

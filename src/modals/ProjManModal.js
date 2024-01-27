@@ -12,10 +12,10 @@ import jiraTech from '../assets/skills/projmanSkills/jiraTech.png';
 import trelloTech from '../assets/skills/projmanSkills/trelloTech.png';
 
 function ProjManModal({ onClose }) {
-  const CLICKUPSkills = 90; // Set your desired percentage
-  const GITSkills = 80; // Set your desired percentage
-  const JIRATech = 85; // Set your desired percentage
-  const TRELLOTech = 85; // Set your desired percentage
+  const CLICKUPSkills = 40; // Set your desired percentage
+  const GITSkills = 65; // Set your desired percentage
+  const JIRATech = 40; // Set your desired percentage
+  const TRELLOTech = 50; // Set your desired percentage
 
   return (
     <div className="projectMan-modal-overlay" onClick={onClose}>
