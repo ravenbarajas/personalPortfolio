@@ -63,18 +63,17 @@ function AcademicProjects() {
                       </div>
                   </div>
                 </div>
-                <div className="academic-project-card">
-
-                  <div className='academic-project-card-image-container-2'>
+                <div className="academic-project-card" onClick={() => openModal('LibraryProj')}>
+                  <div className='academic-project-card-image-container-6'>
                           
                   </div>
                   <div className='academic-project-card-header-container-wrapper'>
                     <div className='academic-project-card-header-container'>
                       <div className='academic-project-card-header-wbg'>
-                          <p>E-commerce Website</p>
+                          <p>Library Mangement System</p>
                       </div>
                       <div className='academic-project-card-subheader-wbg'>
-                          <p>Technopreneurship Project</p>
+                          <p>Senior High School Project</p>
                       </div>
                     </div>
                     <div className='project-seemore'>
@@ -108,60 +107,7 @@ function AcademicProjects() {
         <div className='academic-projects-section fade-in'> 
           <div className='academic-projects-section-row'>
             <div className="academic-project-card-container">
-                <div className="academic-project-card">
-                  <div className='academic-project-card-image-container-4'>
-                          
-                  </div>
-                  <div className='academic-project-card-header-container-wrapper'>
-                    <div className='academic-project-card-header-container'>
-                      <div className='academic-project-card-header-wbg'>
-                          <p>Travel Brochure Website</p>
-                      </div>
-                      <div className='academic-project-card-subheader-wbg'>
-                          <p>Web Development Project</p>
-                      </div>
-                    </div>
-                    <div className='project-seemore'>
-                      <img src={seemore} alt="seemore" />
-                    </div>
-                  </div>
-                </div>
-                <div className="academic-project-card">
-                  <div className='academic-project-card-image-container-5'>
-                          
-                  </div>
-                  <div className='academic-project-card-header-container-wrapper'>
-                    <div className='academic-project-card-header-container'>
-                      <div className='academic-project-card-header-wbg'>
-                          <p>Bookkeeping Software</p>
-                      </div>
-                      <div className='academic-project-card-subheader-wbg'>
-                          <p>Accounting Principles Project</p>
-                      </div>
-                    </div>
-                    <div className='project-seemore'>
-                        <img src={seemore} alt="seemore" />
-                    </div>
-                    </div>
-                </div>
-                <div className="academic-project-card" onClick={() => openModal('LibraryProj')}>
-                  <div className='academic-project-card-image-container-6'>
-                          
-                  </div>
-                  <div className='academic-project-card-header-container-wrapper'>
-                    <div className='academic-project-card-header-container'>
-                      <div className='academic-project-card-header-wbg'>
-                          <p>Library Mangement System</p>
-                      </div>
-                      <div className='academic-project-card-subheader-wbg'>
-                          <p>Senior High School Project</p>
-                      </div>
-                    </div>
-                    <div className='project-seemore'>
-                        <img src={seemore} alt="seemore" />
-                    </div>
-                  </div>
-                </div>
+
             </div> 
           </div>
         </div>

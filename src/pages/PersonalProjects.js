@@ -21,44 +21,7 @@ function PersonalProjects() {
         <div className='personal-projects-section fade-in'>
           <div className='personal-projects-section-row'>
             <div className="personal-project-card-container">
-                <div className="personal-project-card">
-
-                  <div className='personal-project-card-image-container-1'>
-                          
-                  </div>
-                  <div className='personal-project-card-header-container-wrapper'>
-                    <div className='personal-project-card-header-container'>
-                      <div className='personal-project-card-header-wbg'>
-                          <p>Hybrid Recipe Recommender</p>
-                      </div>
-                      <div className='personal-project-card-subheader-wbg'>
-                          <p>Capstone Project</p>
-                      </div>
-                    </div>
-                    <div className='project-seemore'>
-                        <img src={seemore} alt="seemore" />
-                    </div>
-                  </div>
-                </div>
-                <div className="personal-project-card">
-
-                  <div className='personal-project-card-image-container-2'>
-                          
-                  </div>
-                  <div className='personal-project-card-header-container-wrapper'>
-                    <div className='personal-project-card-header-container'>
-                      <div className='personal-project-card-header-wbg'>
-                          <p>E-commerce Website</p>
-                      </div>
-                      <div className='personal-project-card-subheader-wbg'>
-                          <p>Technopreneurship Project</p>
-                      </div>
-                    </div>
-                    <div className='project-seemore'>
-                        <img src={seemore} alt="seemore" />
-                    </div>
-                  </div>
-                </div>
+ 
             </div> 
           </div>
           <div className='personal-projects-section-row'>
