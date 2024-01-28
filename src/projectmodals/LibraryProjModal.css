@@ -1,0 +1,211 @@
+/* CloudCompModal.css */
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 2rem;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .swiper-slide img {
+    width: 636px;
+    height: 636px;
+    object-fit: cover;
+    object-position: start;
+  }
+  .libraryProj-modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+    .libraryProj-modal-overlay.active {
+      overflow: hidden;
+    }
+    
+    .libraryProj-modal-content {
+      background: #fff; /* White background for the modal content */
+      padding: 20px;
+      border-radius: 2rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle lift effect */
+      width: 1200px; /* Adjust the max-width as needed */
+      height: 800px;
+      text-align: center;
+    }
+    
+    .libraryProj-modal-nav {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .libraryProj-modal-nav img {
+      width: 35px;
+      height: auto;
+    }
+    .libraryProj-modal-nav img:hover {
+      cursor: pointer;
+    }
+    .libraryProj-modal-heading {
+      padding: 1rem;
+    }
+    .libraryProj-modal-header p {
+      color: #222222;
+      font-size: 36px;
+      font-weight: 900;
+      font-family: 'Inter', sans-serif;
+      text-align: start;
+      margin: 0; /* Remove default margin */
+    }
+    .libraryProj-modal-subheading p {
+      color: #222222;
+      font-size: 28px;
+      font-weight: 900;
+      font-family: 'Inter', sans-serif;
+      text-align: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      margin: 0; /* Remove default margin */
+    }
+    .libraryProj-modal-subheader p {
+      color: #222222;
+      font-size: 18px;
+      font-weight: 500;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      font-family: 'Inter', sans-serif, Medium;
+      text-align: start;
+      margin: 0; /* Remove default margin */
+    }
+    .libraryProj-modal-body {
+      height: 636px;
+      padding: 1rem;
+      max-height: 668px; /* Set your desired max height */
+      overflow-y: auto;
+    }
+    .libraryProj-modal-body-container {
+      display: flex;
+      flex-direction: column;
+      max-height: 668px; /* Set your desired max height */
+    }
+    .libraryProj-modal-body-row {
+      padding-bottom: 1rem;
+    }
+    .libraryProj-modal-body-col {
+      display: flex;
+      flex-direction: row;
+    }
+    .libraryProj-modal-body::-webkit-scrollbar {
+      width: 8px;
+    }
+    
+    .libraryProj-modal-body::-webkit-scrollbar-thumb {
+      background-color: #ddd;
+      border-radius: 3px;
+    }
+    
+    .libraryProj-modal-body::-webkit-scrollbar-track {
+      background-color: #F5F5F5;
+    }
+    .libraryProj-modal-body-subheader p {
+      color: #222222;
+      width: 95%;
+      font-size: 18px;
+      font-weight: 500;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      font-family: 'Inter', sans-serif, Medium;
+      text-align: justify;
+      margin: 0; /* Remove default margin */
+    }
+    .libraryProj-modal-body-leftcol {
+      height: 636px;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .libraryProj-modal-body-leftcol-upper {
+      height: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .libraryProj-modal-body-leftcol-middle {
+      height: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .libraryProj-modal-body-leftcol-lower {
+      height: 636px;
+      height: 30%;
+    }
+    .libraryProj-modal-body-leftcol-bodytext {
+      height: auto;
+      padding-bottom: 1rem;
+    }
+    .libraryProj-modal-body-rightcol {
+      width: 50%;
+      height: 636px;
+    }
+    .libraryProj-modal-body-imagecontainer {
+      height: 636px;
+      background-image: url('../assets/projects/academic/libraryProj/homepage.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+      background-size:cover;
+      background-position: start; 
+      border-radius: 2rem;
+    }
+    .libraryProj-modal-body-imagecarousel {
+      border-radius: 2rem;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+    .libraryProj-modal-body-navrow {
+      display: flex;
+      padding-bottom: 4px;
+    }
+    .libraryProj-modal-body-navrow-item {
+      display: flex;
+      height: 36px;
+      min-width: auto;
+      background-color: #333336;
+      margin-left: 4px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      justify-content: center;
+      align-items: center;
+      border-radius: 48px;
+    }
+    .libraryProj-modal-body-navrow-item p {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: 'Inter', sans-serif;
+      text-decoration: none;
+    }
+    .libraryProj-modal-row {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      padding-top: .5rem;
+      padding-left: 1rem;
+    }
+    

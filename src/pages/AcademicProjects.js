@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import './AcademicProjects.css';
 
 import CapstoneProjModal from '../projectmodals/CapstoneProjModal';
+import InventoryProjModal from '../projectmodals/InventoryProjModal';
+import LibraryProjModal from '../projectmodals/LibraryProjModal';
 
 import seemore from '../assets/seemore.png';
 
@@ -28,6 +30,10 @@ function AcademicProjects() {
         switch (activeModal) {
           case 'CapstoneProj':
             return <CapstoneProjModal onClose={closeModal} />;
+          case 'InventoryProj':
+            return <InventoryProjModal onClose={closeModal} />;
+          case 'LibraryProj':
+            return <LibraryProjModal onClose={closeModal} />;
           default:
             return null;
         }
@@ -76,7 +82,7 @@ function AcademicProjects() {
                     </div>
                   </div>
                 </div>
-                <div className="academic-project-card">
+                <div className="academic-project-card" onClick={() => openModal('InventoryProj')}>
 
                   <div className='academic-project-card-image-container-3'>
                           
@@ -138,7 +144,7 @@ function AcademicProjects() {
                     </div>
                     </div>
                 </div>
-                <div className="academic-project-card">
+                <div className="academic-project-card" onClick={() => openModal('LibraryProj')}>
                   <div className='academic-project-card-image-container-6'>
                           
                   </div>

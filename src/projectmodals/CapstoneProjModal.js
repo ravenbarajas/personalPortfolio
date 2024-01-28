@@ -22,9 +22,16 @@ import './CapstoneProjModal.css'; // Import the CSS file
 import exitModal from '../assets/exitModal.png';
 import exitModalRed from '../assets/exitModalRed.png';
 
+import systemarchitecture from '../assets/projects/academic/capstoneProj/systemarchitecture.png';
+import mobilearchitecture from '../assets/projects/academic/capstoneProj/mobilearchitecture.png';
+import recommendationengine from '../assets/projects/academic/capstoneProj/recommendationengine.png';
+import datamanagement from '../assets/projects/academic/capstoneProj/datamanagement.png';
 import intropage from '../assets/projects/academic/capstoneProj/IntroPage_Part 1.png';
 import login from '../assets/projects/academic/capstoneProj/Login.png';
 import page1 from '../assets/projects/academic/capstoneProj/page1.png';
+import createrecipe from '../assets/projects/academic/capstoneProj/createrecipe.png';
+import recipeslection from '../assets/projects/academic/capstoneProj/RecipeSelection.png';
+import recommendationresults from '../assets/projects/academic/capstoneProj/RecommendationResult.png';
 
 function CapstoneProjModal({ onClose }) {
   const DJANGOSkills = 55; // Set your desired percentage
@@ -135,6 +142,145 @@ function CapstoneProjModal({ onClose }) {
             </div>
             <div className='capstoneProj-modal-body-row'>
               <div className='capstoneProj-modal-body-col'>
+                <div className='capstoneProj-modal-body-leftcol' style={{ width: '30%' }}>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-subheading'>
+                      <p>Architecture Overview</p>
+                    </div>  
+                  </div>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-body-subheader'style={{paddingBottom:"1rem" }}>
+                      <p>Built on Xamarin, this mobile app features modules for personalized recipe presentation, creation, and user management. The recommendation engine employs collaborative and content-based filtering, with a hybrid approach for diverse suggestions.</p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader' >
+                      <p>Comprehensive datasets support model training, and the Recipe Management Module, backed by Django and Django Rest Framework, offers an efficient Content Management System (CMS) with a ReactJS frontend. This architecture ensures a seamless and personalized culinary experience, combining powerful recommendation algorithms with an intuitive user interface.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='capstoneProj-modal-body-rightcol' style={{ width: '70%' , display: 'flex', justifyContent:"center", alignItems:"center" }}>
+                  <div className='capstoneProj-modal-body-imagecarousel' style={{ width: '100%'}}> 
+                    <img src={systemarchitecture} alt="systemarchitecture" style={{ width: '100%', height:'100%'}}/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='capstoneProj-modal-body-row'>
+              <div className='capstoneProj-modal-body-col'>
+                <div className='capstoneProj-modal-body-leftcol'>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-subheading'>
+                      <p>Mobile Architecture Overview</p>
+                    </div>  
+                  </div>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p style={{ fontSize: '22px' }}><b>Recipe Presentation Module</b></p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p>Responsible for showcasing recipes to users. It tailors the display based on individual user preferences, incorporating collaborative filtering techniques to suggest recipes liked by users with similar tastes. Additionally, it utilizes content-based recommendations, ensuring a diverse selection of recipes aligned with the user's preferences.</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p style={{ fontSize: '22px' }}><b>Recipe Generation Module</b></p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p>Responsible for dynamically generating new recipes based on various factors such as user preferences, available ingredients, and trending culinary styles. Leveraging the recommendation engine's insights into user tastes, the Recipe Generation Module can suggest unique and personalized recipes for users to try. </p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p style={{ fontSize: '22px' }}><b>User Management Module</b></p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p>Handles the authentication, profile management, and user preferences. It ensures secure user authentication, maintains user profiles, and manages individual preferences, providing a personalized experience tailored to each user's culinary interests.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='capstoneProj-modal-body-rightcol' style={{ display: 'flex', justifyContent:"center", alignItems:"center" }}>
+                  <div className='capstoneProj-modal-body-imagecarousel'>
+                    <img src={mobilearchitecture} alt="mobilearchitecture"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='capstoneProj-modal-body-row'>
+              <div className='capstoneProj-modal-body-col'>
+                <div className='capstoneProj-modal-body-leftcol'>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-subheading'>
+                      <p>Recommendation Engine Overview</p>
+                    </div>  
+                  </div>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p style={{ fontSize: '22px' }}><b>Collaborative Filtering (Cosine Similarity)</b></p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p>Utilizes cosine similarity to measure user preferences and recommend recipes based on the tastes of users with similar preferences. This method enhances personalization by suggesting items that align with the choices of like-minded users.</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p style={{ fontSize: '22px' }}><b>Content-Based Filtering (TF-IDF)</b></p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p>Leverages TF-IDF to analyze the content of recipe descriptions, identifying key features and assessing the importance of words. The engine then recommends recipes by considering the similarity of their descriptions to users' past preferences. This approach ensures that suggested recipes align with thematic and descriptive aspects that users have historically found appealing.</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p style={{ fontSize: '22px' }}><b>Hybrid Approach</b></p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p>Integrates collaborative filtering scores and content filtering scores in a hybrid model, striking a balance between user preferences and recipe content features. By combining these approaches, the system provides a more nuanced set of recommendations, ensuring accuracy and diversity in suggesting recipes that cater to the unique tastes and preferences of users.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='capstoneProj-modal-body-rightcol' style={{ display: 'flex', justifyContent:"center", alignItems:"center" }}>
+                  <div className='capstoneProj-modal-body-imagecarousel' >
+                    <img src={recommendationengine} alt="recommendationengine" style={{ width: '95%', height:'95%'}}/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='capstoneProj-modal-body-row'>
+              <div className='capstoneProj-modal-body-col'>
+                <div className='capstoneProj-modal-body-leftcol'>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-subheading'>
+                      <p>Data Management Overview</p>
+                    </div>  
+                  </div>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p style={{ fontSize: '22px' }}><b>Data Sets</b></p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p>The Recipe Data Set is a comprehensive collection featuring recipes, encompassing detailed information on ingredients, step-by-step instructions, and user ratings. This dataset serves as a crucial foundation for training recommendation models, ensuring the system can offer personalized and relevant recipe suggestions.</p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p>The User Profile Dataset is dedicated to storing user-specific data, capturing preferences, and tracking liked recipes. This dataset plays a pivotal role in training both collaborative and content-based recommendation models, enabling the system to tailor its suggestions based on individual user behaviors and preferences.</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p style={{ fontSize: '22px' }}><b>Recipe Management Module</b></p>
+                    </div>
+                    <div className='capstoneProj-modal-body-subheader'>
+                      <p>The Recipe Management Module is powered by Django and Django Rest Framework on the backend. This module takes charge of handling recipe data, user profiles, and authentication. The ReactJS-based frontend seamlessly integrates with the backend, providing users with an intuitive Content Management System (CMS). Through this system, users can effortlessly create, edit, and manage their recipes, ensuring a user-friendly experience for efficient recipe management.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='capstoneProj-modal-body-rightcol' style={{ display: 'flex', justifyContent:"center", alignItems:"center" }}>
+                  <div className='capstoneProj-modal-body-imagecarousel' >
+                    <img src={datamanagement} alt="datamanagement" style={{ width: '100%', height:'100%'}}/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='capstoneProj-modal-body-row'>
+              <div className='capstoneProj-modal-body-col'>
                 <div className='capstoneProj-modal-body-leftcol'>
                   <div className='capstoneProj-modal-body-leftcol-bodytext'>
                     <div className='capstoneProj-modal-subheading'>
@@ -216,20 +362,93 @@ function CapstoneProjModal({ onClose }) {
                 </div>
                 <div className='capstoneProj-modal-body-rightcol'>
                   <div className='capstoneProj-modal-body-imagecarousel'>
-                  <Swiper spaceBetween={30} 
-                          loop={true}   
-                          centeredSlides={true}
-                          autoplay={{
-                          delay: 2500,
-                          disableOnInteraction: false,}}
-                    pagination={{ clickable: true,}}
-                    modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"
-                  >
-                    <SwiperSlide><img src={intropage} alt="intropage" /></SwiperSlide>
-                    <SwiperSlide><img src={login} alt="login" /></SwiperSlide>
-                    <SwiperSlide><img src={page1} alt="page1" /></SwiperSlide>
-                  </Swiper>
+                    <Swiper spaceBetween={30} 
+                            loop={true}   
+                            centeredSlides={true}
+                            autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,}}
+                      pagination={{ clickable: true,}}
+                      modules={[Autoplay, Pagination, Navigation]}
+                      className="mySwiper"
+                    >
+                      <SwiperSlide><img src={createrecipe} alt="createrecipe" /></SwiperSlide>
+                      <SwiperSlide><img src={recipeslection} alt="recipeslection" /></SwiperSlide>
+                      <SwiperSlide><img src={recommendationresults} alt="recommendationresults" /></SwiperSlide>
+                    </Swiper>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='capstoneProj-modal-body-row'>
+              <div className='capstoneProj-modal-body-col'>
+                <div className='capstoneProj-modal-body-leftcol' style={{ width: '100%', height:'100%', display:"flex", justifyContent: 'start', alignItems:'start'}}>
+                  <div className='capstoneProj-modal-body-leftcol-bodytext'>
+                    <div className='capstoneProj-modal-subheading'>
+                      <p>Tools and Technologies</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-navrow' >
+                    <div className='capstoneProj-modal-body-navrow-item'>
+                      <p>Google Cloud Platforms</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-subheader' style={{ paddingBottom:"1rem"}}>
+                    <p>GCP is utilized as the hosting solution for the project, providing cloud computing services. It ensures the deployment of the application, scalability, and reliable hosting of the system's components.</p>
+                  </div>
+                  <div className='capstoneProj-modal-body-navrow'>
+                    <div className='capstoneProj-modal-body-navrow-item'>
+                      <p>NumPy</p>
+                    </div>
+                    <div className='capstoneProj-modal-body-navrow-item'>
+                      <p>Pandas</p>
+                    </div>
+                    <div className='capstoneProj-modal-body-navrow-item'>
+                      <p>Matplotlib</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-subheader'style={{ paddingBottom:"1rem"}}>
+                    <p>NumPy and Pandas are Python libraries employed for efficient data cleaning and transformation. They facilitate tasks such as handling missing data, filtering, and reshaping datasets. Matplotlib is used for data visualization, providing a robust plotting library.</p>
+                  </div>
+                  <div className='capstoneProj-modal-body-navrow'>
+                    <div className='capstoneProj-modal-body-navrow-item'>
+                      <p>Tableau</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-subheader'style={{ paddingBottom:"1rem"}}>
+                    <p>Tableau is employed for creating interactive and visually appealing data visualizations. It allows for the creation of dashboards and reports, enabling users to gain insights from the project's data.</p>
+                  </div>
+                  <div className='capstoneProj-modal-body-navrow'>
+                    <div className='capstoneProj-modal-body-navrow-item'>
+                      <p>JIRA </p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-subheader'style={{ paddingBottom:"1rem"}}>
+                    <p>JIRA is a project management and bug tracking tool. It helps in efficiently tracking and managing bugs, issues, and tasks throughout the development process, ensuring a streamlined workflow.</p>
+                  </div>
+                  <div className='capstoneProj-modal-body-navrow'>
+                    <div className='capstoneProj-modal-body-navrow-item'>
+                      <p>ClickUp</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-subheader'style={{ paddingBottom:"1rem"}}>
+                    <p>ClickUp serves as a collaboration and project management platform, aiding in task scheduling and organization. It allows the team to manage and prioritize tasks effectively, ensuring a structured and efficient development process.</p>
+                  </div>
+                  <div className='capstoneProj-modal-body-navrow'>
+                    <div className='capstoneProj-modal-body-navrow-item'>
+                      <p>Figma</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-subheader'style={{ paddingBottom:"1rem"}}>
+                    <p>Figma is a collaborative design tool used for creating and sharing mockups and design prototypes. It facilitates the design and visualization of the project's user interface and overall layout.</p>
+                  </div>
+                  <div className='capstoneProj-modal-body-navrow'>
+                    <div className='capstoneProj-modal-body-navrow-item'>
+                      <p>Photoshop</p>
+                    </div>
+                  </div>
+                  <div className='capstoneProj-modal-body-subheader'style={{ paddingBottom:"1rem"}}>
+                    <p>Photoshop is utilized for designing and editing graphical elements, particularly icons. It enables the creation of visually appealing and customized icons to enhance the project's aesthetics.</p>
                   </div>
                 </div>
               </div>

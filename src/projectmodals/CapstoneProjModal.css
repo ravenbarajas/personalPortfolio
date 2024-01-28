@@ -18,8 +18,8 @@
 }
 
 .swiper-slide img {
-  width: 100%;
-  height: 100%;
+  width: 636px;
+  height: 636px;
   object-fit: cover;
   object-position: center;
 }
@@ -173,8 +173,10 @@
     border-radius: 2rem;
   }
   .capstoneProj-modal-body-imagecarousel {
-    height: 636px;
     border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
   .capstoneProj-modal-body-navrow {
     display: flex;

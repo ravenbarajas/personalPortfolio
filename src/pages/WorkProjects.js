@@ -1,27 +1,44 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './WorkProjects.css';
 
+import LawwebProjModal from '../projectmodals/LawwebProjModal';
+
 import seemore from '../assets/seemore.png';
 
 function WorkProjects() {
-    useEffect(() => {
-        // After rendering, add the 'active' class to trigger the fade-in animation
-        const timer = setTimeout(() => {
-          document.querySelectorAll('.fade-in').forEach((element) => {
-            element.classList.add('active');
-          });
-        }, 100);
-    
-        // Cleanup the timer to avoid memory leaks
-        return () => clearTimeout(timer);
-      }, []);
+  useEffect(() => {
+    // After rendering, add the 'active' class to trigger the fade-in animation
+    const timer = setTimeout(() => {
+      document.querySelectorAll('.fade-in').forEach((element) => {
+        element.classList.add('active');
+      });
+    }, 100);
+
+    // Cleanup the timer to avoid memory leaks
+    return () => clearTimeout(timer);
+  }, []);
+  const [activeModal, setActiveModal] = useState(null);
+  const openModal = (modalType) => {
+    setActiveModal(modalType);
+  };
+  const closeModal = () => {
+    setActiveModal(null);
+  };
+  const renderModal = () => {
+    switch (activeModal) {
+      case 'LawwebProj':
+            return <LawwebProjModal onClose={closeModal} />;
+      default:
+        return null;
+    }
+  };
   return (
     <div className="projects-container">
       <div className='work-projects-column'>
         <div className='work-projects-section fade-in'>
           <div className='work-projects-section-row'>
             <div className="work-project-card-container">
-                <div className="work-project-card">
+                <div className="work-project-card" onClick={() => openModal('LawwebProj')}>
 
                   <div className='work-project-card-image-container-1'>
                           
@@ -68,6 +85,7 @@ function WorkProjects() {
           </div>
         </div>
       </div>
+      {activeModal && renderModal()}
     </div>
   );
 }

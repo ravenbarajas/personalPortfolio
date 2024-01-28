@@ -74,7 +74,7 @@
   height: 70%;
   border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
   border-top-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
-  background-image: url('../assets/projects/academic/appdevProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-image: url('../assets/projects/academic/inventoryProj/appdevProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
   background-size: cover; /* Optional: Adjust the background size */
   background-position: center; 
 }
@@ -98,7 +98,7 @@
   height: 70%;
   border-top-left-radius: 2rem; /* Adjust the border-radius to control the roundness */
   border-top-right-radius: 2rem; /* Adjust the border-radius to control the roundness */
-  background-image: url('../assets/projects/academic/shsProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-image: url('../assets/projects/academic/libraryProj/shsProj.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
   background-size: cover; /* Optional: Adjust the background size */
   background-position: start; 
 }
