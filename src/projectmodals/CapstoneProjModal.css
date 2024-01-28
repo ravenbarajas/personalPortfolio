@@ -1,5 +1,28 @@
 /* CloudCompModal.css */
+.swiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 2rem;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .capstoneProj-modal-overlay {
     position: fixed;
     top: 0;
@@ -46,6 +69,16 @@
     font-weight: 900;
     font-family: 'Inter', sans-serif;
     text-align: start;
+    margin: 0; /* Remove default margin */
+  }
+  .capstoneProj-modal-subheading p {
+    color: #222222;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin: 0; /* Remove default margin */
   }
   .capstoneProj-modal-subheader p {
@@ -102,6 +135,10 @@
   .capstoneProj-modal-body-leftcol {
     height: 636px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .capstoneProj-modal-body-leftcol-upper {
     height: 30%;
@@ -120,13 +157,23 @@
     height: 636px;
     height: 30%;
   }
+  .capstoneProj-modal-body-leftcol-bodytext {
+    height: auto;
+    padding-bottom: 1rem;
+  }
   .capstoneProj-modal-body-rightcol {
     width: 50%;
     height: 636px;
-    margin-left: 1rem;
-    background-image: url('../assets/projects/academic/capstoneProj.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
-    background-size: cover; /* Optional: Adjust the background size */
+  }
+  .capstoneProj-modal-body-imagecontainer {
+    height: 636px;
+    background-image: url('../assets/projects/academic/capstoneProj/capstoneProj.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size:cover;
     background-position: center; 
+    border-radius: 2rem;
+  }
+  .capstoneProj-modal-body-imagecarousel {
+    height: 636px;
     border-radius: 2rem;
   }
   .capstoneProj-modal-body-navrow {
