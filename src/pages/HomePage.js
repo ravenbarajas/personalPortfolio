@@ -48,7 +48,7 @@ function HomePage() {
                   </div>
                   <div className="aboutme-subheading-card">
                     <div className="aboutme-subheading">
-                      <p>IT graduate from Polytechnic University of the Philippines with a strong coding passion and problem-solving acumen, possessing a solid software development background, quick learner, and detail-oriented.</p>
+                      <p>A Software Developer with expertise in Python, Java, C#, and JavaScript, with a passion for creating innovative and user-friendly solutions and have developed a diverse portfolio of projects that demonstrate my skills and experience.</p>
                     </div>
                   </div>
                 </div>
