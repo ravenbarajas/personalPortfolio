@@ -44,19 +44,19 @@ function Projects() {
           </div>
         <div className="projects-section-nav-container">
           <div className="projects-section-nav">
-          <Link
-              to="/projects/academic"
-              className={`projects-nav-btn ${selectedBtn === 0 ? 'active' : ''}`}
-              onClick={() => setSelectedBtn(0)}
-            >
-              <p>Academic</p>
-            </Link>
             <Link
               to="/projects/work"
               className={`projects-nav-btn ${selectedBtn === 1 ? 'active' : ''}`}
               onClick={() => setSelectedBtn(1)}
             >
               <p>Work</p>
+            </Link>
+            <Link
+              to="/projects/academic"
+              className={`projects-nav-btn ${selectedBtn === 0 ? 'active' : ''}`}
+              onClick={() => setSelectedBtn(0)}
+            >
+              <p>Academic</p>
             </Link>
             <Link
               to="/projects/personal"

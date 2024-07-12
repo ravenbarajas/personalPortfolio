@@ -91,7 +91,7 @@ function AcademicProjects() {
                       <div className='academic-project-card-header-wbg'>
                           <p>Inventory Handling System</p>
                       </div>
-                      <div className='academic-project-card-subheader-wbg'>
+                      <div className='academic-project-cardcd c:-subheader-wbg'>
                           <p>Application Development Project</p>
                       </div>
                     </div>

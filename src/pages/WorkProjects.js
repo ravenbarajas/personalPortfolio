@@ -38,6 +38,25 @@ function WorkProjects() {
         <div className='work-projects-section fade-in'>
           <div className='work-projects-section-row'>
             <div className="work-project-card-container">
+              <div className="work-project-card" onClick={() => openModal('LawwebProj')}>
+
+              <div className='work-project-card-image-container-1'>
+                      
+              </div>
+              <div className='work-project-card-header-container-wrapper'>
+                <div className='work-project-card-header-container'>
+                  <div className='work-project-card-header-wbg'>
+                      <p>Media Archive Library</p>
+                  </div>
+                  <div className='work-project-card-subheader-wbg'>
+                      <p>Work Project</p>
+                  </div>
+                </div>
+                <div className='project-seemore'>
+                    <img src={seemore} alt="seemore" />
+                </div>
+              </div>
+              </div>
                 <div className="work-project-card" onClick={() => openModal('LawwebProj')}>
 
                   <div className='work-project-card-image-container-1'>
