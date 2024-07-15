@@ -4,21 +4,15 @@ import FrontendDevModal from '../modals/FrontendDevModal';
 import BackendDevModal from '../modals/BackendDevModal';
 import MobileDevModal from '../modals/MobileDevModal';
 import DesktopDevModal from '../modals/DesktopDevModal';
-import ProjManModal from '../modals/ProjManModal';
-import DataSciModal from '../modals/DataSciModal';
 import DBManagementModal from '../modals/DBManagementModal';
 import CloudCompModal from '../modals/CloudCompModal';
-import MsOfficeModal from '../modals/MsOfficeModal';
 
 import frontendDev from '../assets/frontendDev.png';
 import backendDev from '../assets/backendDev.png';
 import mobileDev from '../assets/mobileDev.png';
 import desktopDev from '../assets/desktopDev.png';
-import projMan from '../assets/projMan.png';
-import dataSci from '../assets/dataSci.png';
 import dbMan from '../assets/dbMan.png';
 import cloudComp from '../assets/cloudComp.png';
-import msOff from '../assets/msOff.png';
 
 import seemore from '../assets/seemore.png';
 
@@ -43,16 +37,10 @@ function TechSkill() {
         return <MobileDevModal onClose={closeModal} />;
       case 'DesktopDev':
         return <DesktopDevModal onClose={closeModal} />;
-      case 'ProjMan':
-        return <ProjManModal onClose={closeModal} />;
-      case 'DataSci':
-        return <DataSciModal onClose={closeModal} />;
       case 'DBMan':
       return <DBManagementModal onClose={closeModal} />;
       case 'CloudComp':
         return <CloudCompModal onClose={closeModal} />;
-      case 'MsOffice':
-        return <MsOfficeModal onClose={closeModal} />;
       default:
         return null;
     }
@@ -137,40 +125,6 @@ function TechSkill() {
                 </div>
               </div>
             </div>
-            <div className="technical-skill-card-5" onClick={() => openModal('ProjMan')}>
-              <div className='tech-skill-logo-card-5'>
-                <div className='tech-skill-logo-card-title'>
-                </div>
-                <div className='tech-skill-logo-card-seemore'>
-                  <img src={seemore} alt="seemore" />
-                </div>
-              </div>
-              <div className='tech-skill-desc'>
-                <div className="tech-grid-item"><img src={projMan} alt="projMan" /></div>
-                <div className='tech-skill-desc-label'>
-                  <p>Project</p>
-                  <p>Management</p>
-                </div>
-              </div>
-            </div>
-            <div className="technical-skill-card-6" onClick={() => openModal('DataSci')}>
-              <div className='tech-skill-logo-card-6'>
-                <div className='tech-skill-logo-card-title'>
-                </div>
-                <div className='tech-skill-logo-card-seemore'>
-                  <img src={seemore} alt="seemore" />
-                </div>
-              </div>
-              <div className='tech-skill-desc'>
-                <div className="tech-grid-item"><img src={dataSci} alt="dataSci" /></div>
-                <div className='tech-skill-desc-label'>
-                  <p>Data</p>
-                  <p>Science</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='technical-skills-row'>
             <div className="technical-skill-card-7" onClick={() => openModal('DBMan')}>
               <div className='tech-skill-logo-card-7'>
                 <div className='tech-skill-logo-card-title'>
@@ -200,22 +154,6 @@ function TechSkill() {
                 <div className='tech-skill-desc-label'>
                   <p>Cloud</p>
                   <p>Computing</p>
-                </div>
-              </div>
-            </div>
-            <div className="technical-skill-card-9" onClick={() => openModal('MsOffice')}>
-              <div className='tech-skill-logo-card-9'>
-                <div className='tech-skill-logo-card-title'>
-                </div>
-                <div className='tech-skill-logo-card-seemore'>
-                  <img src={seemore} alt="seemore" />
-                </div>
-              </div>
-              <div className='tech-skill-desc'>
-                <div className="tech-grid-item"><img src={msOff} alt="msOff" /></div>
-                <div className='tech-skill-desc-label'>
-                  <p>MS Office</p>
-                  <p>Suite</p>
                 </div>
               </div>
             </div>
