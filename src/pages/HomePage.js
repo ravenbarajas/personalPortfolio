@@ -48,7 +48,7 @@ function HomePage() {
                   </div>
                   <div className="aboutme-subheading-card">
                     <div className="aboutme-subheading">
-                      <p>A Software Developer with a solid foundation in Python, Java, C#, and JavaScript, with a passion for creating innovative and user-friendly solutions, I have developed a diverse portfolio of projects that exhibits my skills and experience.</p>
+                      <p>A Software Developer with a solid foundation in Web and Cross-Platform App Development, with a passion for creating innovative and user-friendly solutions, I have developed a diverse portfolio of projects that exhibits my skills and experience.</p>
                     </div>
                   </div>
                 </div>

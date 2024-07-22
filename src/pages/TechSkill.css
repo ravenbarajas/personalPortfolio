@@ -9,7 +9,7 @@
 }
 .technical-skill-column {
   width: 100%;
-  height: 1070px;
+  height: 928px;
   opacity: 100%;
 }
 .technical-skill-header {
@@ -42,7 +42,7 @@
 .technical-skills-section {
   display: flex;
   flex-direction: column;
-  height: 973px;
+  height: 800px;
   align-content: center;
   justify-content: center;
 }
