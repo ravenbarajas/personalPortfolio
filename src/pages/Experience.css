@@ -92,7 +92,7 @@
 
   }
   .experience-col-date {
-    width: 256px;  /* Diameter of the circle */
+    width: 300px;  /* Diameter of the circle */
     height: 64px; /* Diameter of the circle */
     background-color: #ffffff; /* Color of the circle */
     color: #333336;
@@ -108,7 +108,7 @@
     text-decoration: none;
   }
   .experience-col-desc {
-    width: 512px;  /* Diameter of the circle */
+    width: 576px;  /* Diameter of the circle */
     height: 192px; /* Diameter of the circle */
     background-color: #ffffff; /* Color of the circle */
     border-radius: 2rem; /* Ensures the element is a circle */
@@ -116,7 +116,7 @@
     margin-left: 2rem;
     display: flex;
     flex-direction: column;
-    padding: .75rem;
+    padding: 1rem;
   }
   .experience-desc-heading {
     width: 100%;
@@ -156,7 +156,7 @@
   .experience-company {
     width: 50%;
   }
-  .experience-date {
+  .experience-desc {
     width: 50%;
     font-size: 18px;
     font-weight: 500;

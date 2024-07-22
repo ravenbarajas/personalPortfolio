@@ -20,7 +20,7 @@ function Experience() {
                 <div className='experience-col'>
                     <div className='experience-row-left'>
                         <div className='experience-col-date'>
-                            <p>Feb 2024 - Present</p>
+                            <p>February 2024 - Present</p>
                         </div>
                     </div>
                     <div className='experience-row-mid'>
@@ -39,7 +39,7 @@ function Experience() {
                                 </div>
                                 <div className='experience-desc-subheader'>
                                     <p className='experience-company'>Viva Communications, Inc.</p>
-                                    <p className='experience-date'>Feb 2024 - Present</p>
+                                    <p className='experience-desc'>First Post-Bachelors Job</p>
                                 </div>
                             </div>
                             <div className='experience-desc-body'>
@@ -70,7 +70,7 @@ function Experience() {
                                 </div>
                                 <div className='experience-desc-subheader'>
                                     <p className='experience-company'>LexMeet, Inc.</p>
-                                    <p className='experience-date'>March 2023 - July 2023</p>
+                                    <p className='experience-desc'>Internship</p>
                                 </div>
                             </div>
                             <div className='experience-desc-body'>
