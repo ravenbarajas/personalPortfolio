@@ -51,7 +51,7 @@ function Experience() {
                 <div className='experience-col'>
                     <div className='experience-row-left'>
                         <div className='experience-col-date'>
-                            <p>March 2023 - July 2023</p>
+                            <p>March 2023 - August 2023</p>
                         </div>
                     </div>
                     <div className='experience-row-mid'>
@@ -84,7 +84,7 @@ function Experience() {
                 <div className='experience-col'>
                     <div className='experience-row-left'>
                         <div className='experience-col-date'>
-                            <p>February 2024 - September 2024</p>
+                            <p>February 2024 - Present</p>
                         </div>
                     </div>
                     <div className='experience-row-mid'>
